@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using SHOU.Entity;
+using SHOU.Models;
 
 namespace SHOU.Contexts;
 

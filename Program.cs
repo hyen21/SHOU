@@ -1,5 +1,10 @@
+using Microsoft.EntityFrameworkCore;
+using SHOU.Contexts;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDbContext<SHOUContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SHOUContext")));
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
