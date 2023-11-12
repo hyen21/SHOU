@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using SHOU.Contexts;
+using Microsoft.AspNetCore.Authentication.Cookies;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +9,14 @@ builder.Services.AddDbContext<SHOUContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SHOUContext")));
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddAuthentication(
+    CookieAuthenticationDefaults.AuthenticationScheme).
+    AddCookie(option =>
+    {
+        option.LoginPath = "/Users/Login";
+        option.ExpireTimeSpan = TimeSpan.FromMinutes(20);
+    });
 
 var app = builder.Build();
 
@@ -23,10 +33,12 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Users}/{action=Login}/{id?}");
 
 app.Run();

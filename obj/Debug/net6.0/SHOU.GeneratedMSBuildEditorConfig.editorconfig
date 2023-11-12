@@ -9,157 +9,165 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SHOU
 build_property.RootNamespace = SHOU
-build_property.ProjectDir = D:\Bài Tập\LTWNC\SHOU\
+build_property.ProjectDir = C:\Users\Win10Pro\Documents\SHOU\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Bài Tập\LTWNC\SHOU
+build_property.MSBuildProjectDirectory = C:\Users\Win10Pro\Documents\SHOU
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Comments/Create.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Comments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Comments/Delete.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Comments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Comments/Details.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Comments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Comments/Edit.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Comments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Comments/Index.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Comments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Home/Index.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Home/Privacy.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Images/Create.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Images/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Images/Delete.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Images/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Images/Details.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Images/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Images/Edit.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Images/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Images/Index.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Images/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Likes/Create.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Likes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlrZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Likes/Delete.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Likes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlrZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Likes/Details.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Likes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlrZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Likes/Edit.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Likes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlrZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Likes/Index.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Likes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlrZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Notifications/Create.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Notifications/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Notifications/Delete.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Notifications/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Notifications/Details.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Notifications/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Notifications/Edit.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Notifications/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Notifications/Index.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Notifications/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Posts/Create.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Posts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Posts/Delete.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Posts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Posts/Details.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Posts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Posts/Edit.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Posts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Posts/Index.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Posts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Shared/Error.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Users/Create.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Users/Delete.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Users/Details.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Users/Edit.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Users/Index.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/_ViewImports.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Users/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10Pro/Documents/SHOU/Views/Users/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcU2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10Pro/Documents/SHOU/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/_ViewStart.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bài Tập/LTWNC/SHOU/Views/Shared/_Layout.cshtml]
+[C:/Users/Win10Pro/Documents/SHOU/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ns6jrirws5
