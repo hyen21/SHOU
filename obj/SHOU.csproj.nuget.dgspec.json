@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bài Tập\\LTWNC\\SHOU\\SHOU.csproj": {}
+    "C:\\Users\\Win10Pro\\Documents\\SHOU\\SHOU.csproj": {}
   },
   "projects": {
-    "D:\\Bài Tập\\LTWNC\\SHOU\\SHOU.csproj": {
+    "C:\\Users\\Win10Pro\\Documents\\SHOU\\SHOU.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bài Tập\\LTWNC\\SHOU\\SHOU.csproj",
+        "projectUniqueName": "C:\\Users\\Win10Pro\\Documents\\SHOU\\SHOU.csproj",
         "projectName": "SHOU",
-        "projectPath": "D:\\Bài Tập\\LTWNC\\SHOU\\SHOU.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Bài Tập\\LTWNC\\SHOU\\obj\\",
+        "projectPath": "C:\\Users\\Win10Pro\\Documents\\SHOU\\SHOU.csproj",
+        "packagesPath": "C:\\Users\\Win10Pro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win10Pro\\Documents\\SHOU\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Win10Pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,6 +71,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.16, )"
+            },
+            "XAct.Core.PCL": {
+              "target": "Package",
+              "version": "[0.0.5014, )"
             }
           },
           "imports": [
@@ -92,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
