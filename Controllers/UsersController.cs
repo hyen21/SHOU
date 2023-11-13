@@ -184,6 +184,7 @@ namespace SHOU.Controllers
             
             if (claimsPrincipal.Identity.IsAuthenticated)
             {
+                ViewData["vietanh123"] = "Your Title";
                 return RedirectToAction("Index", "Home");
             }
 
@@ -229,6 +230,8 @@ namespace SHOU.Controllers
 
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
                         new ClaimsPrincipal(identity), authenticationProperties);
+
+                    ViewData["vietanh123"] = "Your Title";
 
                     // chuyển sang màn trang chủ
                     return RedirectToAction("Index", "Home");
