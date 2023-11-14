@@ -1,0 +1,94 @@
+﻿@model SHOU.Models.EditModel.ProfileEditModel
+
+@{
+    ViewData["Title"] = "ProfileEditModel";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Users" asp-action="EditProfile" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name"  type="file"  class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <div class="file-input-container">
+                        <i class="fa fa-upload" id="file-icon"></i>
+                        <input type="file" asp-for="Name" class="form-control file-input" id="file-input" />
+                    </div>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label"></label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Birthday" class="control-label"></label>
+                <input asp-for="Birthday" class="form-control" type="date"/>
+                <span asp-validation-for="Birthday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                <input asp-for="Gender" class="form-control" />
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" disabled="true" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit">
+                    <input asp-for="Name" type="file" class="form-control" />
+                   </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+<style>
+    .file-input-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .file-input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    #file-icon {
+        font-size: 24px;
+        margin-right: 10px; /* Khoảng cách giữa biểu tượng và tên tệp */
+    }
+</style>
+<script>
+    document.getElementById("file-input").addEventListener("change", function () {
+        var fileName = this.files[0].name;
+        document.getElementById("file-icon").innerText = fileName;
+    });
+</script>

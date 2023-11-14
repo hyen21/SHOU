@@ -11,13 +11,8 @@ public partial class User
 
     public string Name { get; set; } = null!;
 
-    [Required(ErrorMessage = "Tên đăng nhập không được trống")]
-    [Display(Name = "Tên đăng nhập")]
     public string UserName { get; set; } = null!;
 
-    [Display(Name = "Mật khẩu")]
-    [Required(ErrorMessage = "Mật khẩu không được trống.")]
-    [DataType(DataType.Password)]
     public string Password { get; set; } = null!;
 
     public string? Email { get; set; }
@@ -28,6 +23,7 @@ public partial class User
 
     public string? Avatar { get; set; }
 
+    public string? Background { get; set; }
     public DateTime? Birthday { get; set; }
 
     public bool? Gender { get; set; }
