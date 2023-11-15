@@ -30,5 +30,6 @@ namespace SHOU.Models.EditModel
 
         [Display(Name = "Giới tính")]
         public bool? Gender { get; set; }
+        public bool ReadOnly { get; set; }
     }
 }

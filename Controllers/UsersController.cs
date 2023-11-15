@@ -17,13 +17,15 @@ using System.Text.RegularExpressions;
 using SHOU.Extentions;
 using System.Text;
 using XSystem.Security.Cryptography;
+using XAct.Users;
 
 namespace SHOU.Controllers
 {
     public class UsersController : Controller
     {
         private readonly SHOUContext _context;
-
+        ProfileEditModel profileEditModel = new ProfileEditModel();
+        bool? isDisable;
         public UsersController(SHOUContext context)
         {
             _context = context;
@@ -66,7 +68,7 @@ namespace SHOU.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Password,Email,Phone,Address,Avatar,Birthday,Gender")] User user)
+        public async Task<IActionResult> Create([Bind("Id,Name,Password,Email,Phone,Address,Avatar,Birthday,Gender")] Models.User user)
         {
             try
             {
@@ -106,7 +108,7 @@ namespace SHOU.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,Password,Email,Phone,Address,Avatar,Birthday,Gender")] User user)
+        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,Password,Email,Phone,Address,Avatar,Birthday,Gender")] Models.User user)
         {
             if (id != user.Id)
             {
@@ -184,7 +186,6 @@ namespace SHOU.Controllers
             
             if (claimsPrincipal.Identity.IsAuthenticated)
             {
-                ViewData["vietanh123"] = "Your Title";
                 return RedirectToAction("Index", "Home");
             }
 
@@ -215,9 +216,10 @@ namespace SHOU.Controllers
                     // thêm các thông tin của user để lưu thông giữ các màn
                     List<Claim> claims = new List<Claim>()
                     {
-                        new Claim(ClaimTypes.NameIdentifier, user.UserName),
+                        new Claim(ClaimTypes.NameIdentifier, data.UserName),
                         new Claim("Id", data.Id),
-                        new Claim("Name", user.UserName),
+                        new Claim("UserName", data.UserName),
+                        new Claim("Name", data.Name),
                     };
 
                     ClaimsIdentity identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -231,7 +233,6 @@ namespace SHOU.Controllers
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
                         new ClaimsPrincipal(identity), authenticationProperties);
 
-                    ViewData["vietanh123"] = "Your Title";
 
                     // chuyển sang màn trang chủ
                     return RedirectToAction("Index", "Home");
@@ -290,7 +291,7 @@ namespace SHOU.Controllers
                     }
                     if (ModelState.IsValid)
                     {
-                        User newUser = new User()
+                        Models.User newUser = new Models.User()
                         {
                             Id = ObjectExtentions.GenerateGuid(),
                             UserName = user.UserName,
@@ -331,7 +332,7 @@ namespace SHOU.Controllers
             {
                 return NotFound();
             }
-            var profileEditModel = new ProfileEditModel();
+            profileEditModel = new ProfileEditModel();
             profileEditModel.Birthday = user.Birthday;
             profileEditModel.Address = user.Address;
             profileEditModel.Email = user.Email;
@@ -342,43 +343,54 @@ namespace SHOU.Controllers
             profileEditModel.Id = user.Id;
             profileEditModel.Name = user.Name;
             profileEditModel.UserName = user.UserName;
+            //bool isDisable = true;
+            //ViewData["isDisable"] = isDisable;
+            //ViewData["isDisable"] = TempData["isDisable"] != null ? TempData["isDisable"] : true;
 
+            var a = HttpContext.Items["isDisable"];
             return View(profileEditModel);
         }
 
         // POST: Users/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditProfile(string id, [Bind("Id,Name,Password,Email,Phone,Address,Avatar,Birthday,Gender")] User user)
-        {
-            if (id != user.Id)
-            {
-                return NotFound();
-            }
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> EditProfile(string id, [Bind("Id,Name,Password,Email,Phone,Address,Avatar,Birthday,Gender")] Models.User user)
+        //{
+        //    if (id != user.Id)
+        //    {
+        //        return NotFound();
+        //    }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(user);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!UserExists(user.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(user);
+        //    if (ModelState.IsValid)
+        //    {
+        //        try
+        //        {
+        //            _context.Update(user);
+        //            await _context.SaveChangesAsync();
+        //        }
+        //        catch (DbUpdateConcurrencyException)
+        //        {
+        //            if (!UserExists(user.Id))
+        //            {
+        //                return NotFound();
+        //            }
+        //            else
+        //            {
+        //                throw;
+        //            }
+        //        }
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(profileEditModel);
+        //}
+
+        public IActionResult ToggleEditState(bool abc)
+        {
+            HttpContext.Items["isDisable"] = abc;
+            var a = HttpContext.Items["isDisable"];
+            return Ok(); // hoặc có thể trả về JSON với thông tin phức tạp hơn nếu cần
         }
     }
 }

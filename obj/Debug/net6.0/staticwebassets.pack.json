@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\SHOU.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\background.jpg",
+      "PackagePath": "staticwebassets\\Img\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\icon_camera.jpg",
+      "PackagePath": "staticwebassets\\Img\\icon_camera.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\noprofil.jpg",
+      "PackagePath": "staticwebassets\\Img\\noprofil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\tet.jpg",
+      "PackagePath": "staticwebassets\\Img\\tet.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
