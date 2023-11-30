@@ -319,78 +319,48 @@ namespace SHOU.Controllers
             }
         }
 
-        // GET: Users/Edit/5
-        public async Task<IActionResult> EditProfile(string id)
+        // GET: Users/PersonalPage
+        public IActionResult PersonalPage()
         {
-            if (id == null || _context.Users == null)
-            {
-                return NotFound();
-            }
-
-            var user = await _context.Users.FindAsync(id);
-            if (user == null)
-            {
-                return NotFound();
-            }
-            profileEditModel = new ProfileEditModel();
-            profileEditModel.Birthday = user.Birthday;
-            profileEditModel.Address = user.Address;
-            profileEditModel.Email = user.Email;
-            profileEditModel.Gender = user.Gender;
-            profileEditModel.Phone = user.Phone;
-            profileEditModel.Avatar = user.Avatar;
-            profileEditModel.Background = user.Background;
-            profileEditModel.Id = user.Id;
-            profileEditModel.Name = user.Name;
-            profileEditModel.UserName = user.UserName;
-            //bool isDisable = true;
-            //ViewData["isDisable"] = isDisable;
-            //ViewData["isDisable"] = TempData["isDisable"] != null ? TempData["isDisable"] : true;
-
-            var a = HttpContext.Items["isDisable"];
-            return View(profileEditModel);
+            return View();
         }
 
-        // POST: Users/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> EditProfile(string id, [Bind("Id,Name,Password,Email,Phone,Address,Avatar,Birthday,Gender")] Models.User user)
-        //{
-        //    if (id != user.Id)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    if (ModelState.IsValid)
-        //    {
-        //        try
-        //        {
-        //            _context.Update(user);
-        //            await _context.SaveChangesAsync();
-        //        }
-        //        catch (DbUpdateConcurrencyException)
-        //        {
-        //            if (!UserExists(user.Id))
-        //            {
-        //                return NotFound();
-        //            }
-        //            else
-        //            {
-        //                throw;
-        //            }
-        //        }
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    return View(profileEditModel);
-        //}
-
-        public IActionResult ToggleEditState(bool abc)
+        public async Task<JsonResult> GetProfile()
         {
-            HttpContext.Items["isDisable"] = abc;
-            var a = HttpContext.Items["isDisable"];
-            return Ok(); // hoặc có thể trả về JSON với thông tin phức tạp hơn nếu cần
+            try
+            {
+                var id = @User.FindFirst("Id")?.Value;
+                var user = await _context.Users.FindAsync(id);
+                return Json(new { code = 200, user = user, msg = "Lấy thông tin tài khoản thành công!" });
+
+            }
+            catch (Exception ex)
+            {
+                return Json(new { code = 500, msg = "Lấy thông tin tài khoản thất bại!" });
+            }
+        }
+
+        public async Task<JsonResult> UpdateUser(string name, DateTime? birthday, bool? gender, string phone, string email, string addressEdit)
+        {
+            try
+            {
+                var id = @User.FindFirst("Id")?.Value;
+                var user = await _context.Users.FindAsync(id);
+                user.Name = name;
+                user.Birthday = birthday;
+                user.Address = addressEdit;
+                user.Gender = gender;
+                user.Phone = phone;
+                user.Email = email;
+                _context.Update(user);
+                await _context.SaveChangesAsync();
+                return Json(new { code = 200, msg = "Cập nhật thông tin thành công!" });
+
+            }
+            catch (Exception ex)
+            {
+                return Json(new { code = 500, msg = "Cập nhật thông tin thất bại!" });
+            }
         }
     }
 }

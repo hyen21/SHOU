@@ -1,0 +1,220 @@
+﻿@{
+    var name = @User.FindFirst("Name")?.Value;
+}
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+</head>
+
+<div class="avatar">
+    <div class="background">
+        <img src="/Img/tet.jpg" alt="" width="100%" />
+    </div>
+    <div class="upload">
+        <img src="/Img/noprofil.jpg" width="200" height="200" alt="" />
+        <div class="round">
+            <input type="file" />
+            <i class="fa fa-camera" style="color: #fff;"></i>
+        </div>
+        <div class="name">
+            @name
+        </div>
+    </div>
+</div>
+<div class="edit-profile">
+    <div class="col-md-4">
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td class="text-success"><i class="fa fa-user"></i> Họ và tên</td>
+                    <td id="name"></td>
+                </tr>
+                <tr>
+                    <td class="text-success"><i class="fa fa-calendar"></i> Ngày sinh</td>
+                    <td id="birthday"></td>
+                </tr>
+                <tr>
+                    <td class="text-success"><i class="fa fa-venus-mars"></i> Giới tính</td>
+                    <td id="gender"></td>
+                </tr>
+                <tr>
+                    <td class="text-success"><i class="fa fa-phone"></i> Số điện thoại</td>
+                    <td id="phone"></td>
+                </tr>
+                <tr>
+                    <td class="text-success"><i class="fa fa-envelope-o"></i> Email</td>
+                    <td id="email"></td>
+                </tr>
+                <tr>
+                    <td class="text-success"><i class="fa fa-map-marker"></i> Địa chỉ</td>
+                    <td id="address"></td>
+                </tr>
+                <tr>
+                    <td class="text-success"><i class="fa fa-id-card"></i> Tài khoản</td>
+                    <td id="userName"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="button-submit-edit-proflie">
+            <button id="editProfile" class="button-submit-blue" style="width:100px;" onclick="enableEditing()">Chỉnh sửa</button>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="modalProfile">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content edit-profile">
+            <div class="panel panel-primary">
+                <div class="panel-heading title-model" id="modalTitle">Sửa thông tin</div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label>Họ và tên</label>
+                        <input type="text" class="form-control" id="nameEdit">
+                    </div>
+                    <div class="form-group">
+                        <label>Ngày sinh</label>
+                        <input type="date" class="form-control" id="birthdayEdit">
+                    </div>
+                    <div class="form-group">
+                        <label>Giới tính</label>
+                        <select class="form-control" id="genderEdit">
+                            <option value="true" id="nam">Nam</option>
+                            <option value="false" id="nu">Nữ</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Số điện thoại</label>
+                        <input type="text" class="form-control" id="phoneEdit">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" class="form-control" id="emailEdit">
+                    </div>
+                    <div class="form-group">
+                        <label>Địa chỉ</label>
+                        <input type="text" class="form-control" id="addressEdit">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnSubmit">Lưu</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btnClose">Đóng</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+@section scripts{
+    <script>
+        // vào màn chạy luôn các function này
+        $(document).ready(function () {
+            LoadInfoUser();
+        });
+
+        // Load thông tin của user đang đăng nhập
+        function LoadInfoUser() {
+            $.ajax({
+                url: '/Users/GetProfile',
+                type: 'get',
+                success: function (data) {
+                    console.log(data);
+                    $('#name').text(data.user.name);
+                    $('#birthday').text(moment(data.user.birthday).format('DD/MM/YYYY'));
+                    if (data.user.gender) 
+                    {
+                        $('#gender').text("Nam");
+                    }
+                    else 
+                    {
+                        $('#gender').text("Nữ");
+                    }
+                    $('#phone').text(data.user.phone);
+                    $('#email').text(data.user.email);
+                    $('#address').text(data.user.address);
+                    $('#userName').text(data.user.userName);
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        }
+
+        // khi ấn vào btn chỉnh sửa, nó hiện model ra và fill dữ liệu vào các input
+        $('#editProfile').click(function () {
+            $.ajax({
+                url: '/Users/GetProfile',
+                type: 'get',
+                success: function (data) {
+                    console.log(data);
+                    // fill dữ liệu vào các input
+                    $('#nameEdit').val(data.user.name);
+                    $('#birthdayEdit').val(moment(data.user.birthday).format('YYYY-MM-DD'));
+                    if (data.user.gender) 
+                    {
+                        $('#nam').prop('selected', true);
+                    } 
+                    else 
+                    {
+                        $('#nu').prop('selected', true);
+                    }
+                    $('#phoneEdit').val(data.user.phone);
+                    $('#emailEdit').val(data.user.email);
+                    $('#addressEdit').val(data.user.address);
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+            // hiện model ra
+            $('#modalProfile').modal('show');
+        })
+
+        //khi ấn btn đóng của modal => ẩn modal đi
+        $('#btnClose').click(function () { $('#modalProfile').modal('hide'); })
+
+        //khi ấn btn lưu của model
+        $('#btnSubmit').click(function () {
+            // lấy dữ liệu của các input ra
+            let nameEdit = $('#nameEdit').val();
+            let birthdayEdit = $('#birthdayEdit').val();
+            let genderEdit = $('#genderEdit').val();
+            let phoneEdit = $('#phoneEdit').val();
+            let emailEdit = $('#emailEdit').val();
+            let addressEdit = $('#addressEdit').val();
+
+            if (nameEdit == null || nameEdit.length == 0 || nameEdit.trim().length == 0) 
+            {
+                alert('Vui lòng nhập họ và tên!');
+                return;
+            }
+
+            // dùng ajxa để update
+            $.ajax({
+                url: '/Users/UpdateUser',
+                type: 'post',
+                data: {
+                    name: nameEdit,
+                    birthday: birthdayEdit,
+                    gender: genderEdit,
+                    phone: phoneEdit,
+                    email: emailEdit,
+                    addressEdit: addressEdit
+                },
+                success: function (data) {
+                    if (data.code == 200) {
+                        alert(data.msg);
+                        $('#modalProfile').modal('hide');
+                        LoadInfoUser();
+                    } else {
+                        alert(data.msg);
+                    }
+                }
+            });
+        });
+    </script>
+
+}

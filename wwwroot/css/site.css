@@ -111,3 +111,15 @@ input[type=file]::-webkit-file-upload-button {
     color: white;
     border: 0px;
 }
+
+.edit-profile {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 200px;
+}
+
+.title-model {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
