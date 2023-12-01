@@ -16,3 +16,161 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.upload {
+    align-items: center;
+    top: -100px;
+    width: 100px;
+    position: relative;
+    display: flex;
+}
+
+    .upload img {
+        border-radius: 50%;
+        border: 6px solid #eaeaea;
+    }
+
+.wrap_avatar .round {
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+    background: #00B4FF;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+        .upload .round input[type='file'] {
+            position: absolute;
+            transform: scale(2);
+            opacity: 0;
+        }
+
+input[type=file]::-webkit-file-upload-button {
+    cursor: pointer;
+}
+
+.background {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.upload-background{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.wrap_avatar{
+    position: relative;
+}
+
+.control-label {
+    font-weight: bold;
+}
+
+.edit-profile {
+    margin-top: 15px;
+    display: flex
+}
+
+    .edit-profile .col-md-4 {
+        padding: 10px;
+        border-radius: 15px;
+        background: #FFFFFF;
+    }
+
+.avatar {
+    height: 520px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.container{
+    width: 100%;
+    padding: 0px !important;
+}
+
+.name {
+    margin-top: 120px;
+    font-size: 40px;
+}
+
+.button-submit-edit-proflie {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-submit-green {
+    background: #389E0D;
+    color: white;
+    border: 0px;
+}
+
+.button-submit-red {
+    background: #FF4D4F;
+    color: white;
+    border: 0px;
+}
+
+.button-submit-blue {
+    background: #0F56C6;
+    color: white;
+    border: 0px;
+}
+
+.edit-profile-modal {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 200px;
+}
+
+.title-model {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.btn-warning {
+    justify-content: flex-end;
+    margin-top: 100px;
+    position: relative;
+    font-size: 15px;
+    width: 120px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #ffc100;
+    border: 0;
+    overflow: hidden;
+}
+
+    .btn-warning input[type="file"] {
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: scale(3);
+        opacity: 0;
+    }
+
+.btn-secondary {
+    background-color: transparent;
+    border-color: transparent;
+    color: black;
+}
+
+    .btn-secondary:hover {
+        background-color: transparent !important;
+        border-color: transparent !important;
+    }
+
+    .btn-secondary.dropdown-toggle {
+        background-color: transparent !important;
+        border-color: transparent !important;
+    }

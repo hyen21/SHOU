@@ -1,5 +1,11 @@
 ﻿<!DOCTYPE html>
+@using Microsoft.AspNetCore.Http;
 <html lang="en">
+
+@{
+    var name = @User.FindFirst("Name")?.Value;
+    var avatar = @User.FindFirst("Avatar")?.Value;
+}
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,28 +13,32 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SHOU.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
+<body style="background: #F0F2F5">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SHOU</a>
+                <a class="navbar-brand" style="margin-left:50px; font-size:40px" asp-area="" asp-controller="Home" asp-action="Index">SHOU</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="LogOut">Đăng xuất</a>
-                        </li>
-                    </ul>
+                <div class="dropdown" style="margin-right:50px">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="@avatar" style="border-radius: 50%; overflow: hidden;" width="50" height="50" />
+                        <span style="color: black">@Html.Raw(name)</span>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="PersonalPage"><i class="fa fa-user"></i> Trang cá nhân</a>
+                        <a class="nav-link text-dark" asp-area="" id="showModalChangePassword"><i class="fas fa-key"></i> Đổi mật khẩu</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="LogOut"><i class="fa fa-sign-out-alt"></i> Đăng xuất</a>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -37,6 +47,35 @@
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="modalChangePassword">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content edit-profile-modal">
+                <div class="panel panel-primary">
+                    <div class="panel-heading title-model" id="modalTitle">Đổi mật khẩu</div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label>Mật khẩu cũ</label>
+                            <input type="text" class="form-control" id="oldPassword">
+                        </div>
+                        <div class="form-group">
+                            <label>Mật khẩu mới</label>
+                            <input type="text" class="form-control" id="newPassword">
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập lại mật khẩu mới</label>
+                            <input type="text" class="form-control" id="reNewPassword">
+                        </div
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="btnSubmitChangePassword">Lưu</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btnCloseChangePassword">Đóng</button>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <footer class="border-top footer text-muted">
@@ -48,5 +87,50 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        $('#showModalChangePassword').click(function (e) {
+            // hiện model ra
+             e.preventDefault();
+             console.log("ấm thành cồng");
+            $('#modalChangePassword').modal('show');
+        });
+
+         $('#btnCloseChangePassword').click(function () { $('#modalChangePassword').modal('hide');})
+
+          $('#btnSubmitChangePassword').click(function () {
+            // lấy dữ liệu của các input ra
+            let oldPassword = $('#oldPassword').val().trim();
+            let newPassword = $('#newPassword').val().trim();
+            let reNewPassword = $('#reNewPassword').val().trim();
+            if (oldPassword == null || oldPassword.length == 0 
+                || newPassword == null || newPassword.length == 0 
+                || reNewPassword == null || reNewPassword.length == 0) 
+            {
+                alert('Vui lòng nhập đầy đủ thông tin để tiếp tục!');
+                return;
+            }
+
+            // dùng ajxa để update
+            $.ajax({
+                url: '/Users/ChangePassword',
+                type: 'post',
+                data: {
+                    oldPass: oldPassword,
+                    newPass: newPassword,
+                    reNewPass: reNewPassword
+                },
+                success: function (data) {
+                    if (data.code == 200) {
+                        alert(data.msg);
+                        $('#modalChangePassword').modal('hide');
+                    } else {
+                        alert(data.msg);
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 </html>
+
+
