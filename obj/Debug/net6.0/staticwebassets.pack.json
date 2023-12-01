@@ -1,248 +1,2020 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SHOU.bundle.scp.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SHOU.bundle.scp.css",
       "PackagePath": "staticwebassets\\SHOU.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\css\\site.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\300kcal.PNG",
+      "PackagePath": "staticwebassets\\URLImage\\300kcal.PNG"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\Cuộc Thi Học Và Làm Theo Lời Bác.PNG",
+      "PackagePath": "staticwebassets\\URLImage\\Cuộc Thi Học Và Làm Theo Lời Bác.PNG"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\Java-Logo.png",
+      "PackagePath": "staticwebassets\\URLImage\\Java-Logo.png"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\Untitled.png",
+      "PackagePath": "staticwebassets\\URLImage\\Untitled.png"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\an_ninh_bao_mat 1.PNG",
+      "PackagePath": "staticwebassets\\URLImage\\an_ninh_bao_mat 1.PNG"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\bangthamso.PNG",
+      "PackagePath": "staticwebassets\\URLImage\\bangthamso.PNG"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\bangthamsodieukhien.PNG",
+      "PackagePath": "staticwebassets\\URLImage\\bangthamsodieukhien.PNG"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\helloworld.PNG",
+      "PackagePath": "staticwebassets\\URLImage\\helloworld.PNG"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\imager_9146.jpg",
+      "PackagePath": "staticwebassets\\URLImage\\imager_9146.jpg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\ksat.PNG",
+      "PackagePath": "staticwebassets\\URLImage\\ksat.PNG"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\mit.png",
+      "PackagePath": "staticwebassets\\URLImage\\mit.png"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\monoo.png",
+      "PackagePath": "staticwebassets\\URLImage\\monoo.png"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\mở rộng.png",
+      "PackagePath": "staticwebassets\\URLImage\\mở rộng.png"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\neon.png",
+      "PackagePath": "staticwebassets\\URLImage\\neon.png"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\ngli1.PNG",
+      "PackagePath": "staticwebassets\\URLImage\\ngli1.PNG"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\URLImage\\pttk1.PNG",
+      "PackagePath": "staticwebassets\\URLImage\\pttk1.PNG"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\favicon.ico",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\js\\site.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Win10Pro\\Documents\\SHOU\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\.babelrc",
+      "PackagePath": "staticwebassets\\summernote\\.babelrc"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\.editorconfig",
+      "PackagePath": "staticwebassets\\summernote\\.editorconfig"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\.eslintrc",
+      "PackagePath": "staticwebassets\\summernote\\.eslintrc"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\.gitignore",
+      "PackagePath": "staticwebassets\\summernote\\.gitignore"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\.npmignore",
+      "PackagePath": "staticwebassets\\summernote\\.npmignore"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\.travis.yml",
+      "PackagePath": "staticwebassets\\summernote\\.travis.yml"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\CHANGES.md",
+      "PackagePath": "staticwebassets\\summernote\\CHANGES.md"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\LICENSE",
+      "PackagePath": "staticwebassets\\summernote"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\MAINTAIN.md",
+      "PackagePath": "staticwebassets\\summernote\\MAINTAIN.md"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\README.md",
+      "PackagePath": "staticwebassets\\summernote\\README.md"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\config\\build-fonts.js",
+      "PackagePath": "staticwebassets\\summernote\\config\\build-fonts.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\config\\common.js",
+      "PackagePath": "staticwebassets\\summernote\\config\\common.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\config\\webpack.development.js",
+      "PackagePath": "staticwebassets\\summernote\\config\\webpack.development.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\config\\webpack.karma.js",
+      "PackagePath": "staticwebassets\\summernote\\config\\webpack.karma.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\config\\webpack.production.js",
+      "PackagePath": "staticwebassets\\summernote\\config\\webpack.production.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\font\\summernote.eot",
+      "PackagePath": "staticwebassets\\summernote\\dist\\font\\summernote.eot"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\font\\summernote.ttf",
+      "PackagePath": "staticwebassets\\summernote\\dist\\font\\summernote.ttf"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\font\\summernote.woff",
+      "PackagePath": "staticwebassets\\summernote\\dist\\font\\summernote.woff"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\font\\summernote.woff2",
+      "PackagePath": "staticwebassets\\summernote\\dist\\font\\summernote.woff2"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ar-AR.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ar-AR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ar-AR.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ar-AR.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ar-AR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ar-AR.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-az-AZ.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-az-AZ.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-az-AZ.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-az-AZ.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-az-AZ.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-az-AZ.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-bg-BG.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-bg-BG.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-bg-BG.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-bg-BG.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-bg-BG.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-bg-BG.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-bn-BD.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-bn-BD.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-bn-BD.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-bn-BD.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-bn-BD.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-bn-BD.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ca-ES.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ca-ES.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ca-ES.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ca-ES.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ca-ES.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ca-ES.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-cs-CZ.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-cs-CZ.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-cs-CZ.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-cs-CZ.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-cs-CZ.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-cs-CZ.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-da-DK.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-da-DK.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-da-DK.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-da-DK.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-da-DK.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-da-DK.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-de-CH.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-de-CH.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-de-CH.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-de-CH.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-de-CH.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-de-CH.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-de-DE.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-de-DE.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-de-DE.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-de-DE.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-de-DE.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-de-DE.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-el-GR.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-el-GR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-el-GR.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-el-GR.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-el-GR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-el-GR.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-en-US.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-en-US.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-en-US.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-en-US.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-en-US.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-en-US.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-es-ES.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-es-ES.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-es-ES.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-es-ES.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-es-ES.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-es-ES.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-es-EU.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-es-EU.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-es-EU.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-es-EU.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-es-EU.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-es-EU.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-fa-IR.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-fa-IR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-fa-IR.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-fa-IR.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-fa-IR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-fa-IR.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-fi-FI.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-fi-FI.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-fi-FI.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-fi-FI.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-fi-FI.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-fi-FI.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-fr-FR.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-fr-FR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-fr-FR.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-fr-FR.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-fr-FR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-fr-FR.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-gl-ES.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-gl-ES.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-gl-ES.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-gl-ES.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-gl-ES.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-gl-ES.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-he-IL.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-he-IL.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-he-IL.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-he-IL.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-he-IL.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-he-IL.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-hr-HR.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-hr-HR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-hr-HR.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-hr-HR.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-hr-HR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-hr-HR.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-hu-HU.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-hu-HU.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-hu-HU.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-hu-HU.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-hu-HU.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-hu-HU.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-id-ID.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-id-ID.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-id-ID.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-id-ID.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-id-ID.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-id-ID.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-it-IT.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-it-IT.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-it-IT.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-it-IT.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-it-IT.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-it-IT.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ja-JP.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ja-JP.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ja-JP.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ja-JP.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ja-JP.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ja-JP.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ko-KR.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ko-KR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ko-KR.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ko-KR.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ko-KR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ko-KR.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-lt-LT.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-lt-LT.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-lt-LT.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-lt-LT.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-lt-LT.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-lt-LT.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-lt-LV.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-lt-LV.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-lt-LV.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-lt-LV.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-lt-LV.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-lt-LV.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-mn-MN.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-mn-MN.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-mn-MN.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-mn-MN.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-mn-MN.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-mn-MN.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-nb-NO.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-nb-NO.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-nb-NO.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-nb-NO.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-nb-NO.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-nb-NO.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-nl-NL.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-nl-NL.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-nl-NL.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-nl-NL.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-nl-NL.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-nl-NL.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-pl-PL.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-pl-PL.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-pl-PL.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-pl-PL.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-pl-PL.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-pl-PL.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-pt-BR.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-pt-BR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-pt-BR.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-pt-BR.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-pt-BR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-pt-BR.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-pt-PT.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-pt-PT.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-pt-PT.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-pt-PT.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-pt-PT.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-pt-PT.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ro-RO.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ro-RO.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ro-RO.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ro-RO.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ro-RO.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ro-RO.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ru-RU.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ru-RU.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ru-RU.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ru-RU.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ru-RU.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ru-RU.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sk-SK.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sk-SK.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sk-SK.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sk-SK.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sk-SK.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sk-SK.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sl-SI.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sl-SI.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sl-SI.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sl-SI.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sl-SI.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sl-SI.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sr-RS-Latin.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sr-RS-Latin.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sr-RS-Latin.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sr-RS-Latin.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sr-RS-Latin.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sr-RS-Latin.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sr-RS.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sr-RS.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sr-RS.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sr-RS.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sr-RS.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sr-RS.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sv-SE.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sv-SE.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sv-SE.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sv-SE.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-sv-SE.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-sv-SE.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ta-IN.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ta-IN.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ta-IN.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ta-IN.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-ta-IN.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-ta-IN.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-th-TH.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-th-TH.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-th-TH.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-th-TH.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-th-TH.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-th-TH.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-tr-TR.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-tr-TR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-tr-TR.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-tr-TR.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-tr-TR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-tr-TR.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-uk-UA.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-uk-UA.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-uk-UA.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-uk-UA.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-uk-UA.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-uk-UA.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-uz-UZ.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-uz-UZ.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-uz-UZ.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-uz-UZ.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-uz-UZ.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-uz-UZ.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-vi-VN.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-vi-VN.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-vi-VN.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-vi-VN.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-vi-VN.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-vi-VN.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-zh-CN.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-zh-CN.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-zh-CN.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-zh-CN.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-zh-CN.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-zh-CN.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-zh-TW.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-zh-TW.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-zh-TW.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-zh-TW.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\lang\\summernote-zh-TW.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\lang\\summernote-zh-TW.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\plugin\\databasic\\summernote-ext-databasic.css",
+      "PackagePath": "staticwebassets\\summernote\\dist\\plugin\\databasic\\summernote-ext-databasic.css"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\plugin\\databasic\\summernote-ext-databasic.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\plugin\\databasic\\summernote-ext-databasic.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\plugin\\hello\\summernote-ext-hello.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\plugin\\hello\\summernote-ext-hello.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\plugin\\specialchars\\summernote-ext-specialchars.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\plugin\\specialchars\\summernote-ext-specialchars.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-bs4.css",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-bs4.css"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-bs4.css.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-bs4.css.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-bs4.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-bs4.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-bs4.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-bs4.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-bs4.min.css",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-bs4.min.css"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-bs4.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-bs4.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-bs5.css",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-bs5.css"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-bs5.css.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-bs5.css.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-bs5.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-bs5.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-bs5.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-bs5.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-bs5.min.css",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-bs5.min.css"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-bs5.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-bs5.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-lite.css",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-lite.css"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-lite.css.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-lite.css.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-lite.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-lite.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-lite.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-lite.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-lite.min.css",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-lite.min.css"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote-lite.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote-lite.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote.css",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote.css"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote.css.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote.css.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote.js.map",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote.js.map"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote.min.css",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote.min.css"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\dist\\summernote.min.js",
+      "PackagePath": "staticwebassets\\summernote\\dist\\summernote.min.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\README.md",
+      "PackagePath": "staticwebassets\\summernote\\examples\\README.md"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\airmode.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\airmode.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\codemirror.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\codemirror.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\custom-style.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\custom-style.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\example.css",
+      "PackagePath": "staticwebassets\\summernote\\examples\\example.css"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\external-api.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\external-api.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\external-codemirror.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\external-codemirror.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\hint-emoji.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\hint-emoji.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\hint-math.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\hint-math.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\hint-userdefine.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\hint-userdefine.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\hint-words.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\hint-words.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\history-limit.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\history-limit.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\index.template",
+      "PackagePath": "staticwebassets\\summernote\\examples\\index.template"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\jquery-custom-event.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\jquery-custom-event.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\lang.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\lang.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\link-blank.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\link-blank.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\mode-switcher.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\mode-switcher.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\ondialog-multitab.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\ondialog-multitab.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\ondialog.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\ondialog.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\placeholder.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\placeholder.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\plugin-hello.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\plugin-hello.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\recordEveryKeyStroke.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\recordEveryKeyStroke.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\symbols_mathematical-symbols_Greek-letters.json",
+      "PackagePath": "staticwebassets\\summernote\\examples\\symbols_mathematical-symbols_Greek-letters.json"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\textarea.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\textarea.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\toolbar-container.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\toolbar-container.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\examples\\with-google-font.html",
+      "PackagePath": "staticwebassets\\summernote\\examples\\with-google-font.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\package.json",
+      "PackagePath": "staticwebassets\\summernote\\package.json"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\plugin\\databasic\\summernote-ext-databasic.css",
+      "PackagePath": "staticwebassets\\summernote\\plugin\\databasic\\summernote-ext-databasic.css"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\plugin\\databasic\\summernote-ext-databasic.js",
+      "PackagePath": "staticwebassets\\summernote\\plugin\\databasic\\summernote-ext-databasic.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\plugin\\hello\\summernote-ext-hello.js",
+      "PackagePath": "staticwebassets\\summernote\\plugin\\hello\\summernote-ext-hello.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\plugin\\specialchars\\summernote-ext-specialchars.js",
+      "PackagePath": "staticwebassets\\summernote\\plugin\\specialchars\\summernote-ext-specialchars.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\align-center.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\align-center.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\align-indent.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\align-indent.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\align-justify.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\align-justify.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\align-left.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\align-left.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\align-outdent.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\align-outdent.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\align-right.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\align-right.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\align.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\align.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\arrow-circle-down.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\arrow-circle-down.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\arrow-circle-left.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\arrow-circle-left.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\arrow-circle-right.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\arrow-circle-right.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\arrow-circle-up.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\arrow-circle-up.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\arrows-alt.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\arrows-alt.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\arrows-h.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\arrows-h.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\arrows-v.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\arrows-v.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\bold.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\bold.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\caret.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\caret.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\chain-broken.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\chain-broken.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\circle.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\circle.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\close.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\close.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\code.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\code.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\col-after.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\col-after.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\col-before.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\col-before.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\col-remove.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\col-remove.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\eraser.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\eraser.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\float-left.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\float-left.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\float-none.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\float-none.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\float-right.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\float-right.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\font.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\font.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\frame.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\frame.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\italic.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\italic.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\link.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\link.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\magic.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\magic.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\menu-check.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\menu-check.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\minus.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\minus.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\orderedlist.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\orderedlist.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\pencil.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\pencil.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\picture.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\picture.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\question.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\question.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\redo.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\redo.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\rollback.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\rollback.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\row-above.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\row-above.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\row-below.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\row-below.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\row-remove.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\row-remove.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\special-character.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\special-character.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\square.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\square.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\strikethrough.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\strikethrough.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\subscript.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\subscript.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\summernote.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\summernote.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\superscript.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\superscript.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\table.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\table.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\text-height.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\text-height.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\trash.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\trash.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\underline.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\underline.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\undo.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\undo.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\unorderedlist.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\unorderedlist.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\icons\\video.svg",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\icons\\video.svg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\summernote.eot",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\summernote.eot"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\summernote.hash",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\summernote.hash"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\summernote.ttf",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\summernote.ttf"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\summernote.woff",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\summernote.woff"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\summernote.woff2",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\summernote.woff2"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\font\\template.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\font\\template.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\Context.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\Context.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\core\\async.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\core\\async.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\core\\dom.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\core\\dom.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\core\\env.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\core\\env.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\core\\func.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\core\\func.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\core\\key.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\core\\key.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\core\\lists.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\core\\lists.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\core\\range.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\core\\range.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\editing\\Bullet.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\editing\\Bullet.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\editing\\History.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\editing\\History.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\editing\\Style.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\editing\\Style.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\editing\\Table.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\editing\\Table.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\editing\\Typing.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\editing\\Typing.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\AirPopover.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\AirPopover.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\AutoLink.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\AutoLink.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\AutoReplace.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\AutoReplace.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\AutoSync.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\AutoSync.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\Buttons.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\Buttons.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\Clipboard.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\Clipboard.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\Codeview.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\Codeview.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\Dropzone.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\Dropzone.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\Editor.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\Editor.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\Fullscreen.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\Fullscreen.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\Handle.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\Handle.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\HelpDialog.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\HelpDialog.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\HintPopover.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\HintPopover.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\ImageDialog.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\ImageDialog.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\ImagePopover.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\ImagePopover.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\LinkDialog.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\LinkDialog.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\LinkPopover.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\LinkPopover.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\Placeholder.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\Placeholder.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\Statusbar.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\Statusbar.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\TablePopover.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\TablePopover.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\Toolbar.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\Toolbar.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\module\\VideoDialog.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\module\\VideoDialog.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\renderer.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\renderer.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\settings.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\settings.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\js\\summernote.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\js\\summernote.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\README.md",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\README.md"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-ar-AR.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-ar-AR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-az-AZ.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-az-AZ.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-bg-BG.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-bg-BG.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-bn-BD.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-bn-BD.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-ca-ES.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-ca-ES.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-cs-CZ.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-cs-CZ.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-da-DK.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-da-DK.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-de-CH.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-de-CH.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-de-DE.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-de-DE.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-el-GR.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-el-GR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-en-US.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-en-US.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-es-ES.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-es-ES.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-es-EU.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-es-EU.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-fa-IR.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-fa-IR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-fi-FI.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-fi-FI.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-fr-FR.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-fr-FR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-gl-ES.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-gl-ES.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-he-IL.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-he-IL.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-hr-HR.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-hr-HR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-hu-HU.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-hu-HU.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-id-ID.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-id-ID.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-it-IT.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-it-IT.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-ja-JP.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-ja-JP.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-ko-KR.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-ko-KR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-lt-LT.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-lt-LT.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-lt-LV.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-lt-LV.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-mn-MN.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-mn-MN.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-nb-NO.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-nb-NO.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-nl-NL.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-nl-NL.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-pl-PL.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-pl-PL.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-pt-BR.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-pt-BR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-pt-PT.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-pt-PT.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-ro-RO.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-ro-RO.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-ru-RU.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-ru-RU.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-sk-SK.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-sk-SK.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-sl-SI.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-sl-SI.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-sr-RS-Latin.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-sr-RS-Latin.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-sr-RS.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-sr-RS.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-sv-SE.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-sv-SE.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-ta-IN.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-ta-IN.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-th-TH.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-th-TH.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-tr-TR.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-tr-TR.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-uk-UA.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-uk-UA.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-uz-UZ.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-uz-UZ.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-vi-VN.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-vi-VN.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-zh-CN.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-zh-CN.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\lang\\summernote-zh-TW.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\lang\\summernote-zh-TW.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\README.md",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\README.md"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\bs3\\summernote-bs3.html",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\bs3\\summernote-bs3.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\bs3\\summernote-bs3.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\bs3\\summernote-bs3.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\bs3\\summernote-bs3.json",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\bs3\\summernote-bs3.json"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\bs3\\summernote-bs3.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\bs3\\summernote-bs3.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\bs4\\summernote-bs4.html",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\bs4\\summernote-bs4.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\bs4\\summernote-bs4.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\bs4\\summernote-bs4.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\bs4\\summernote-bs4.json",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\bs4\\summernote-bs4.json"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\bs4\\summernote-bs4.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\bs4\\summernote-bs4.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\bs5\\summernote-bs5.html",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\bs5\\summernote-bs5.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\bs5\\summernote-bs5.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\bs5\\summernote-bs5.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\bs5\\summernote-bs5.json",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\bs5\\summernote-bs5.json"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\bs5\\summernote-bs5.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\bs5\\summernote-bs5.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\js\\DropdownUI.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\js\\DropdownUI.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\js\\ModalUI.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\js\\ModalUI.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\js\\TooltipUI.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\js\\TooltipUI.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\scss\\btn-group.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\scss\\btn-group.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\scss\\buttons.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\scss\\buttons.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\scss\\common.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\scss\\common.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\scss\\dropdown.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\scss\\dropdown.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\scss\\form.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\scss\\form.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\scss\\mixins.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\scss\\mixins.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\scss\\mixins\\buttons.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\scss\\mixins\\buttons.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\scss\\modal.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\scss\\modal.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\scss\\popover.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\scss\\popover.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\scss\\toolbar.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\scss\\toolbar.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\scss\\tooltip.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\scss\\tooltip.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\scss\\variables.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\scss\\variables.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\summernote-lite.html",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\summernote-lite.html"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\summernote-lite.js",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\summernote-lite.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\summernote-lite.json",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\summernote-lite.json"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\lite\\summernote-lite.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\lite\\summernote-lite.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\summernote\\README.md",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\summernote\\README.md"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\summernote\\common.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\summernote\\common.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\summernote\\elements.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\summernote\\elements.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\summernote\\font.scss",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\summernote\\font.scss"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\summernote\\font\\summernote.eot",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\summernote\\font\\summernote.eot"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\summernote\\font\\summernote.hash",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\summernote\\font\\summernote.hash"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\summernote\\font\\summernote.ttf",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\summernote\\font\\summernote.ttf"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\summernote\\font\\summernote.woff",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\summernote\\font\\summernote.woff"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\src\\styles\\summernote\\font\\summernote.woff2",
+      "PackagePath": "staticwebassets\\summernote\\src\\styles\\summernote\\font\\summernote.woff2"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\Context.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\Context.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\core\\dom.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\core\\dom.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\core\\func.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\core\\func.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\core\\key.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\core\\key.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\core\\lists.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\core\\lists.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\core\\range.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\core\\range.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\editing\\Table.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\editing\\Table.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\editing\\Typing.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\editing\\Typing.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\editing\\style.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\editing\\style.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\module\\Buttons.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\module\\Buttons.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\module\\Codeview.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\module\\Codeview.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\module\\Editor.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\module\\Editor.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\module\\Fullscreen.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\module\\Fullscreen.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\module\\HintPopover.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\module\\HintPopover.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\module\\LinkDialog.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\module\\LinkDialog.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\module\\Placeholder.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\module\\Placeholder.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\base\\module\\VideoDialog.spec.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\base\\module\\VideoDialog.spec.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\test\\chaidom.js",
+      "PackagePath": "staticwebassets\\summernote\\test\\chaidom.js"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\summernote\\yarn.lock",
+      "PackagePath": "staticwebassets\\summernote\\yarn.lock"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SHOU.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -184,7 +184,7 @@ namespace SHOU.Controllers
             
             if (claimsPrincipal.Identity.IsAuthenticated)
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Posts");
             }
 
             return View();
@@ -231,7 +231,7 @@ namespace SHOU.Controllers
                         new ClaimsPrincipal(identity), authenticationProperties);
 
                     // chuyển sang màn trang chủ
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Posts");
                 }
                 else
                 {

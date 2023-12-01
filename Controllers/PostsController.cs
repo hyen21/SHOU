@@ -1,12 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SHOU.Contexts;
 using SHOU.Models;
+using SHOU.Models.EditModel;
+using static SHOU.Models.EditModel.PostEditModel;
+using SHOU.Extentions;
+using XAct.Users;
+using Nest;
+using DocumentFormat.OpenXml.Wordprocessing;
+using Grpc.Core;
 
 namespace SHOU.Controllers
 {
@@ -22,9 +32,31 @@ namespace SHOU.Controllers
         // GET: Posts
         public async Task<IActionResult> Index()
         {
-              return _context.Posts != null ? 
-                          View(await _context.Posts.ToListAsync()) :
-                          Problem("Entity set 'SHOUContext.Posts'  is null.");
+            var user = HttpContext.User;
+            var name = user.FindFirst("Name")?.Value;
+            ViewData["Name"] = name;
+            return _context.Posts != null ?
+                        View(await _context.Posts.ToListAsync()) :
+                        Problem("Entity set 'SHOUContext.Posts'  is null.");
+        }
+        public async Task<IActionResult> LogOut()
+        {
+            try
+            {
+                await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+                return RedirectToAction("Login", "Users");
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
         // GET: Posts/Details/5
@@ -48,6 +80,9 @@ namespace SHOU.Controllers
         // GET: Posts/Create
         public IActionResult Create()
         {
+            var user = HttpContext.User;
+            var idUser = user.FindFirst("Id")?.Value;
+
             return View();
         }
 
@@ -56,26 +91,62 @@ namespace SHOU.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,IdUser,IdImage,Content,Video,CreateAt")] Post post)
+        public async Task<IActionResult> Create(NewPost post, IFormFile? image)
         {
-            if (ModelState.IsValid)
+            //lấy ra User đang sử dụng
+            var user = HttpContext.User;
+            var idUser = user.FindFirst("Id")?.Value;
+            if (post.IdUser == null)
             {
-                _context.Add(post);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                post.IdUser = idUser;
             }
+
+            //xử lý hình ảnh
+            if (image != null && image.Length > 0)
+            {
+                post.Image = image.FileName;
+                var fileName = Path.GetFileName(image.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "URLImage", fileName);
+                //post.Image = filePath;
+                using (var fileSrteam = new FileStream(filePath, FileMode.Create))
+                {
+                    await image.CopyToAsync(fileSrteam);
+                }
+            }
+
+
+                if (ModelState.IsValid)
+                {
+                    var newPost = new Post()
+                    {
+                        Id = ObjectExtentions.GenerateGuid(),
+                        IdUser = post.IdUser,
+                        Content = post.Content,
+                        Image = post.Image,
+                        CreateAt = DateTime.Now
+
+                    };
+                    _context.Add(newPost);
+                    await _context.SaveChangesAsync();
+                    
+                   
+                    return RedirectToAction(nameof(Index));
+                }
+            
             return View(post);
         }
+
 
         // GET: Posts/Edit/5
         public async Task<IActionResult> Edit(string id)
         {
-            if (id == null || _context.Posts == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
             var post = await _context.Posts.FindAsync(id);
+            
             if (post == null)
             {
                 return NotFound();
@@ -88,35 +159,46 @@ namespace SHOU.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,IdUser,IdImage,Content,Video,CreateAt")] Post post)
+        public async Task<IActionResult> Edit(string id, NewPost post, IFormFile? image)
         {
             if (id != post.Id)
             {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            if (image != null && image.ToString() != post.Image)
             {
-                try
+                post.Image = image.FileName;
+                var fileName = Path.GetFileName(image.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "URLImage", fileName);
+
+                using (var fileSrteam = new FileStream(filePath, FileMode.Create))
                 {
-                    _context.Update(post);
-                    await _context.SaveChangesAsync();
+                    await image.CopyToAsync(fileSrteam);
                 }
-                catch (DbUpdateConcurrencyException)
+            }
+
+
+                if (ModelState.IsValid)
                 {
-                    if (!PostExists(post.Id))
-                    {
-                        return NotFound();
+                    
+                        var updatePost = new Post()
+                        {
+                            Id = post.Id,
+                            IdUser = post.IdUser,
+                            Content = post.Content,
+                            Image = post.Image,
+                            CreateAt = DateTime.Now
+
+                        };
+                        _context.Update(updatePost);
+                        await _context.SaveChangesAsync();
+                       
+                        return RedirectToAction(nameof(Index));
                     }
-                    else
-                    {
-                        throw;
-                    }
-                }
                 return RedirectToAction(nameof(Index));
             }
-            return View(post);
-        }
+        
 
         // GET: Posts/Delete/5
         public async Task<IActionResult> Delete(string id)
@@ -150,14 +232,14 @@ namespace SHOU.Controllers
             {
                 _context.Posts.Remove(post);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool PostExists(string id)
         {
-          return (_context.Posts?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Posts?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

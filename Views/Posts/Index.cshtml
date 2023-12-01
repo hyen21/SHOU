@@ -1,22 +1,98 @@
 ﻿@model IEnumerable<SHOU.Models.Post>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Post";
 }
 
-<h1>Index</h1>
-
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Tạo bài viết mới</a>
 </p>
-<table class="table">
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .product {
+            width: 80%;
+            margin: 10px;
+            padding: 10px;
+            /* border: 1px solid #ccc; */
+            text-align: center;
+            /* display: inline-block; */
+            vertical-align: top;
+            /* box-sizing: border-box; */
+        }
+
+            /* .product img {
+                max-width: 100%;
+                height: auto;
+            } */
+
+            .product-name {
+                font-weight: black;
+                font-size: 20px;
+                /* margin: 5px 0; */
+            }
+
+            .product .product-price {
+                color: #e91e63;
+                margin: 5px 0;
+                text-align: right;
+            }
+
+            .product button {
+                background-color: darkgray;
+                color: #fff;
+                border: none;
+                padding: 5px 10px;
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+  
+    @using (Html.BeginForm())
+    {
+       @*  <p>
+            Find by name: @Html.TextBox("SearchString")
+            <a asp-action="Index">Trang chủ </a>
+            <input type="submit" value="Search" />
+        </p> *@
+    }
+
+    @foreach (var item in Model)
+    {
+        <a href="/ProductList/ProductDetail/@item.Id">
+
+            <div class="product">
+
+                <div class="product-name">@item.IdUser</div>
+                <div class="product-name">@item.Content</div>
+                <img src="~/URLImage/@item.Image" width="100" height="100" alt="new post" asp-append-version="true" />
+               
+                <button>
+                    <a asp-action="Edit" asp-route-id="@item.Id"
+                       class="btn btn-secondary btn-sm float-right">Sửa</a>
+                </button>
+                <button>
+                    <a asp-action="Delete" asp-route-id="@item.Id"
+                       class="btn btn-secondary btn-sm float-right">Xóa</a>
+                </button>
+            </div>
+        </a>
+    }
+
+</body>
+</html>
+
+@* <table class="table">
     <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.IdUser)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdImage)
+                @Html.DisplayNameFor(model => model.Image)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Content)
@@ -31,13 +107,15 @@
         </tr>
     </thead>
     <tbody>
+        
 @foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.IdUser)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdImage)
+                    <img src="~/URLImage/@item.Image" width="100" height="100" alt="new post" asp-append-version="true" />
+                @Html.DisplayFor(modelItem => item.Image)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Content)
@@ -57,3 +135,4 @@
 }
     </tbody>
 </table>
+ *@

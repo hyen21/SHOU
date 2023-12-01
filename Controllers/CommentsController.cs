@@ -22,9 +22,9 @@ namespace SHOU.Controllers
         // GET: Comments
         public async Task<IActionResult> Index()
         {
-              return _context.Comments != null ? 
-                          View(await _context.Comments.ToListAsync()) :
-                          Problem("Entity set 'SHOUContext.Comments'  is null.");
+            return _context.Comments != null ?
+                        View(await _context.Comments.ToListAsync()) :
+                        Problem("Entity set 'SHOUContext.Comments'  is null.");
         }
 
         // GET: Comments/Details/5
@@ -150,14 +150,14 @@ namespace SHOU.Controllers
             {
                 _context.Comments.Remove(comment);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool CommentExists(string id)
         {
-          return (_context.Comments?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Comments?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

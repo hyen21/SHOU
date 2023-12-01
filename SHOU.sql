@@ -13,6 +13,8 @@ create table Users
 	constraint id_user primary key (Id) 
 )
 
+alter table Users add UserName nvarchar(250);
+
 create table Images(
 	Id varchar(36) not null,
 	IdUser varchar(36) not null,
@@ -31,6 +33,9 @@ create table Posts(
 
 	constraint id_post primary key (Id)
 )
+alter table Posts drop column IdImage;
+
+alter table Posts add Image nvarchar(max);
 
 create table Likes(
 	Id varchar(36) not null,

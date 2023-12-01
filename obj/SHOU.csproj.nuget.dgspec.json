@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Win10Pro\\Documents\\SHOU\\SHOU.csproj": {}
+    "D:\\Bài Tập\\LTWNC\\SHOU\\SHOU.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Win10Pro\\Documents\\SHOU\\SHOU.csproj": {
+    "D:\\Bài Tập\\LTWNC\\SHOU\\SHOU.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Win10Pro\\Documents\\SHOU\\SHOU.csproj",
+        "projectUniqueName": "D:\\Bài Tập\\LTWNC\\SHOU\\SHOU.csproj",
         "projectName": "SHOU",
-        "projectPath": "C:\\Users\\Win10Pro\\Documents\\SHOU\\SHOU.csproj",
-        "packagesPath": "C:\\Users\\Win10Pro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Win10Pro\\Documents\\SHOU\\obj\\",
+        "projectPath": "D:\\Bài Tập\\LTWNC\\SHOU\\SHOU.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Bài Tập\\LTWNC\\SHOU\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Win10Pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AWSSDK": {
+              "target": "Package",
+              "version": "[2.3.55.2, )"
+            },
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.46.6, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.13, )"
@@ -72,6 +84,10 @@
               "target": "Package",
               "version": "[6.0.16, )"
             },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
             "XAct.Core.PCL": {
               "target": "Package",
               "version": "[0.0.5014, )"
@@ -96,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
