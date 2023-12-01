@@ -2,26 +2,29 @@
     var name = @User.FindFirst("Name")?.Value;
 }
 
-<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-</head>
-
 <div class="avatar">
     <div class="background">
-        <img src="/Img/tet.jpg" alt="" width="100%" />
+        <img src="/Img/tet.jpg" alt="" width="100%" id="backgroundProfile" />
+        <div class="upload-background">
+            <button type="button" class="btn-warning">
+                <i class="fa fa-camera"></i> Đổi ảnh bìa
+                <input type="file" accept="image/*" onchange="changeBackgroundProfile(this)" />
+            </button>
+        </div>
     </div>
     <div class="upload">
-        <img src="/Img/noprofil.jpg" width="200" height="200" alt="" />
-        <div class="round">
-            <input type="file" />
-            <i class="fa fa-camera" style="color: #fff;"></i>
+        <div class="wrap_avatar">
+            <img src="/Img/noprofil.jpg" width="200" height="200" id="avatarProfile" />
+            <div class="round">
+                <input type="file" accept="image/*" onchange="changeAvatarProfile(this)" />
+                <i class="fa fa-camera" style="color: #fff;"></i>
+            </div>
         </div>
         <div class="name">
             @name
         </div>
     </div>
+    
 </div>
 <div class="edit-profile">
     <div class="col-md-4">
@@ -65,7 +68,7 @@
 
 <div class="modal" tabindex="-1" role="dialog" id="modalProfile">
     <div class="modal-dialog" role="document">
-        <div class="modal-content edit-profile">
+        <div class="modal-content edit-profile-modal">
             <div class="panel panel-primary">
                 <div class="panel-heading title-model" id="modalTitle">Sửa thông tin</div>
                 <div class="panel-body">
@@ -115,6 +118,84 @@
             LoadInfoUser();
         });
 
+        // khi chọn ảnh thay avatar
+        function changeAvatarProfile(input) {
+            var avatar = document.getElementById('avatarProfile');
+            var file = input.files[0];
+            if (file) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    // thay luôn ảnh avatar bằng ảnh vừa input
+                    avatar.src = e.target.result;
+
+                    var formData = new FormData();
+                    formData.append('avatar', file);
+
+                    $.ajax({
+                        url: '/Users/UpdateAvatar',
+                        type: 'post',
+                        data: formData,
+                        contentType: false,
+                        processData: false,
+                        success: function (data) {
+                            if (data.code == 200)
+                            {
+                                alert(data.msg);
+                            } 
+                            else 
+                            {
+                                alert(data.msg);
+                            }
+                        },
+                        error: function (error) {
+                            console.log(error);
+                        }
+                    });
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        // khi chọn ảnh thay ảnh bìa
+        function changeBackgroundProfile(input) {
+            var avatar = document.getElementById('backgroundProfile');
+            var file = input.files[0];
+            if (file) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    // thay luôn ảnh bìa bằng ảnh vừa input
+                    avatar.src = e.target.result;
+
+                    // lấy dữ liệu file input vào
+                    var formData = new FormData();
+                    formData.append('avatar', file);
+
+                    // gọi vào hàm UpdateBackground để lưu ảnh bìa vào database
+                    $.ajax({
+                        url: '/Users/UpdateBackground',
+                        type: 'post',
+                        data: formData,
+                        contentType: false,
+                        processData: false,
+                        success: function (data) {
+                            if (data.code == 200) {
+                                alert(data.msg);
+                            }
+                            else {
+                                alert(data.msg);
+                            }
+                        },
+                        error: function (error) {
+                            console.log(error);
+                        }
+                    });
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
         // Load thông tin của user đang đăng nhập
         function LoadInfoUser() {
             $.ajax({
@@ -122,6 +203,8 @@
                 type: 'get',
                 success: function (data) {
                     console.log(data);
+                    $('#backgroundProfile').attr('src', data.user.background);
+                    $('#avatarProfile').attr('src', data.user.avatar);
                     $('#name').text(data.user.name);
                     $('#birthday').text(moment(data.user.birthday).format('DD/MM/YYYY'));
                     if (data.user.gender) 
