@@ -1,163 +1,67 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SHOU.Contexts;
+using SHOU.Extentions;
 using SHOU.Models;
+using SHOU.Models.EditModel;
+using XSystem.Security.Cryptography;
+using Microsoft.AspNetCore.Hosting;
+using XAct.Users;
 
 namespace SHOU.Controllers
 {
     public class PostsController : Controller
     {
         private readonly SHOUContext _context;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public PostsController(SHOUContext context)
+        public PostsController(SHOUContext context, IWebHostEnvironment webHostEnvironment)
         {
+            _webHostEnvironment = webHostEnvironment;
             _context = context;
         }
-
-        // GET: Posts
-        public async Task<IActionResult> Index()
-        {
-              return _context.Posts != null ? 
-                          View(await _context.Posts.ToListAsync()) :
-                          Problem("Entity set 'SHOUContext.Posts'  is null.");
-        }
-
-        // GET: Posts/Details/5
-        public async Task<IActionResult> Details(string id)
-        {
-            if (id == null || _context.Posts == null)
-            {
-                return NotFound();
-            }
-
-            var post = await _context.Posts
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (post == null)
-            {
-                return NotFound();
-            }
-
-            return View(post);
-        }
-
-        // GET: Posts/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: Posts/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,IdUser,IdImage,Content,Video,CreateAt")] Post post)
+        public async Task<IActionResult> Create(IFormFile img, string textPost)
         {
-            if (ModelState.IsValid)
+            try
             {
+                var id = @User.FindFirst("Id")?.Value;
+
+                var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "imgPost");
+                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(img.FileName);
+                var filePath = Path.Combine(uploadsFolder, fileName);
+
+                // Copy tệp tin vào thư mục uploads
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await img.CopyToAsync(fileStream);
+                }
+
+                Post post = new Post();
+                post.Id = ObjectExtentions.GenerateGuid();
+                post.IdUser = id;
+                post.Content = textPost;
+                post.CreateTime = DateTime.Now;
+                // Lưu đường dẫn vào cơ sở dữ liệu
+                post.Image = "/imgPost/" + fileName;
+
                 _context.Add(post);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(post);
-        }
+                return Json(new { code = 200, msg = "Tạo bài viết thành công!" });
 
-        // GET: Posts/Edit/5
-        public async Task<IActionResult> Edit(string id)
-        {
-            if (id == null || _context.Posts == null)
+            }
+            catch (Exception ex)
             {
-                return NotFound();
+                return Json(new { code = 500, msg = "Tạo bài viết thất bại!" });
             }
-
-            var post = await _context.Posts.FindAsync(id);
-            if (post == null)
-            {
-                return NotFound();
-            }
-            return View(post);
-        }
-
-        // POST: Posts/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,IdUser,IdImage,Content,Video,CreateAt")] Post post)
-        {
-            if (id != post.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(post);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!PostExists(post.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(post);
-        }
-
-        // GET: Posts/Delete/5
-        public async Task<IActionResult> Delete(string id)
-        {
-            if (id == null || _context.Posts == null)
-            {
-                return NotFound();
-            }
-
-            var post = await _context.Posts
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (post == null)
-            {
-                return NotFound();
-            }
-
-            return View(post);
-        }
-
-        // POST: Posts/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string id)
-        {
-            if (_context.Posts == null)
-            {
-                return Problem("Entity set 'SHOUContext.Posts'  is null.");
-            }
-            var post = await _context.Posts.FindAsync(id);
-            if (post != null)
-            {
-                _context.Posts.Remove(post);
-            }
-            
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool PostExists(string id)
-        {
-          return (_context.Posts?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

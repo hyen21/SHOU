@@ -24,10 +24,10 @@
             @name
         </div>
     </div>
-    
+
 </div>
 <div class="edit-profile">
-    <div class="col-md-4">
+    <div class="col-md-3">
         <table class="table">
             <tbody>
                 <tr>
@@ -62,6 +62,52 @@
         </table>
         <div class="button-submit-edit-proflie">
             <button id="editProfile" class="button-submit-blue" style="width:100px;" onclick="enableEditing()">Chỉnh sửa</button>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="create-post">
+            <img src="/Img/noprofil.jpg" width="50" height="50" style=" border-radius: 50%;" id="avatarProfile1" />
+            <input type="text" class="form-control" id="createPost" placeholder="Bạn muốn đăng bài?" />
+        </div>
+        <div class="list-post" id="123" name="asd">
+            <div style="display:flex">
+                <img src="/Img/noprofil.jpg" width="50" height="50" style=" border-radius: 50%;"/>
+                <div style="margin-left:8px">
+                    <span> Tạ Việt Anh</span></br>
+                    <span> 2 giờ</span>
+                </div>
+            </div>
+            <div>
+                Trước đó, ngày 30/11, trên mạng xã hội TikTok xuất hiện clip ghi lại hình ảnh một người điều khiển xe máy biển số 51F2-17XX có hành vi chở theo sau một người khác đứng trên yên xe để quay phim cho một nam thanh niên không đội mũ bảo hiểm, ngồi quay mặt về phía sau trên máy biển số 60G1-347XX lưu thông trên đường Trần Hưng Đạo, hướng từ đường Calmette về đường Lê Lợi (quận 1, TP.HCM).
+            </div>
+            <div class="img-list-post">
+                <img src="/Img/image(10).png" width="500" height="500"/>
+            </div>
+            <div class="static-like-comment">
+                <div style="margin-left:20px">
+                    <img src="/Img/count-like-icon.png" width="20" height="20" />
+                    <span>10</span>
+                </div>
+                <div style="margin-right:20px">
+                    <span>100</span> <span>bình luận</span> 
+                </div>
+            </div>
+            <div class="like-comment">
+                <div class="col-md-6 like-comment">
+                    <button class="btn-like" name="like">
+                        <img class="like-icon" name="icon-like" src="/Img/Liked-icon.png" width="40" height="40" />
+                        <span> Thích</span>
+                    </button>
+                    
+                </div>
+                <div class="col-md-6 like-comment">
+                    <button class="btn-like-cmt btn-like">
+                        <img src="/Img/comment-icon.png" width="40" height="40" />
+                        <span> Bình luận</span>
+                    </button>
+                    
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -111,8 +157,51 @@
 
     </div>
 </div>
+<div class="modal" tabindex="-1" role="dialog" id="modalCreatePost">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content edit-profile-modal">
+            <div class="panel panel-primary">
+                <div class="panel-heading title-model" id="modalTitle">Tạo bài viết</div>
+                <div class="panel-body">
+                    <div>
+                        <img src="/Img/noprofil.jpg" width="50" height="50" style=" border-radius: 50%;" id="avatarProfile2" />
+                        <span>@name</span>
+                    </div>
+                    <div class="form-group" style="margin-top: 20px;">
+                        <textarea class="form-control" id="textPost" style="border-radius: 20px;" placeholder="Những điều bạn muốn nói."></textarea>
+                    </div>
+                    <div class="hero">
+                        <label for="input-file" id="drop-area">
+                            <input type="file" accept="image/*" id="input-file" hidden>
+                            <div id="img-view">
+                                <img src="/Img/upload.png">
+                                <P>Kéo thả ảnh hoặc click </br> để thêm ảnh!</P>
+                                <span>Tải ảnh lên từ máy tính của bạn! </span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnCreatePost">Tạo</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btnClosePost">Đóng</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
 @section scripts{
     <script>
+
+        $(document).on('click', "button[name='like']", function () {
+            let idCmt0 = $(this).closest('div[name="asd"]').attr('id');
+            $(this).toggleClass('liked');
+            $(this).find('.like-icon').toggleClass('liked');
+            console.log(idCmt0);
+        });
         // vào màn chạy luôn các function này
         $(document).ready(function () {
             LoadInfoUser();
@@ -121,6 +210,7 @@
         // khi chọn ảnh thay avatar
         function changeAvatarProfile(input) {
             var avatar = document.getElementById('avatarProfile');
+            var avatar1 = document.getElementById('avatarProfile1');
             var file = input.files[0];
             if (file) {
                 var reader = new FileReader();
@@ -128,6 +218,7 @@
                 reader.onload = function (e) {
                     // thay luôn ảnh avatar bằng ảnh vừa input
                     avatar.src = e.target.result;
+                    avatar1.src = e.target.result;
 
                     var formData = new FormData();
                     formData.append('avatar', file);
@@ -139,12 +230,10 @@
                         contentType: false,
                         processData: false,
                         success: function (data) {
-                            if (data.code == 200)
-                            {
+                            if (data.code == 200) {
                                 alert(data.msg);
-                            } 
-                            else 
-                            {
+                            }
+                            else {
                                 alert(data.msg);
                             }
                         },
@@ -205,14 +294,13 @@
                     console.log(data);
                     $('#backgroundProfile').attr('src', data.user.background);
                     $('#avatarProfile').attr('src', data.user.avatar);
+                    $('#avatarProfile1').attr('src', data.user.avatar);
                     $('#name').text(data.user.name);
                     $('#birthday').text(moment(data.user.birthday).format('DD/MM/YYYY'));
-                    if (data.user.gender) 
-                    {
+                    if (data.user.gender) {
                         $('#gender').text("Nam");
                     }
-                    else 
-                    {
+                    else {
                         $('#gender').text("Nữ");
                     }
                     $('#phone').text(data.user.phone);
@@ -236,12 +324,10 @@
                     // fill dữ liệu vào các input
                     $('#nameEdit').val(data.user.name);
                     $('#birthdayEdit').val(moment(data.user.birthday).format('YYYY-MM-DD'));
-                    if (data.user.gender) 
-                    {
+                    if (data.user.gender) {
                         $('#nam').prop('selected', true);
-                    } 
-                    else 
-                    {
+                    }
+                    else {
                         $('#nu').prop('selected', true);
                     }
                     $('#phoneEdit').val(data.user.phone);
@@ -269,8 +355,7 @@
             let emailEdit = $('#emailEdit').val();
             let addressEdit = $('#addressEdit').val();
 
-            if (nameEdit == null || nameEdit.length == 0 || nameEdit.trim().length == 0) 
-            {
+            if (nameEdit == null || nameEdit.length == 0 || nameEdit.trim().length == 0) {
                 alert('Vui lòng nhập họ và tên!');
                 return;
             }
@@ -298,6 +383,82 @@
                 }
             });
         });
-    </script>
 
+        // khi ấn thêm bài viết => show modal lên
+        $('#createPost').click(function () {
+            $.ajax({
+                url: '/Users/GetProfile',
+                type: 'get',
+                success: function (data) {
+                    console.log(data);
+                    $('#avatarProfile2').attr('src', data.user.avatar);
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+            $('#modalCreatePost').modal('show');
+        })
+
+        // khi ấn tạo bài viết
+        $('#btnCreatePost').click(function () {
+            // lấy dữ liệu của các input ra
+            let textPost = $('#textPost').val();
+            if ((textPost == null || textPost.length == 0) && (inputFile.files[0] == null)) {
+                alert('Vui lòng điên thông tin!');
+                return;
+            }
+
+            var formData = new FormData();
+            formData.append('textPost', textPost);
+            formData.append('img', inputFile.files[0]);                                                                                                                                  
+
+            // dùng ajax để update
+            $.ajax({
+                url: '/Posts/Create',
+                type: 'post',
+                processData: false,  // Không xử lý dữ liệu
+                contentType: false,  // Không đặt kiểu dữ liệu
+                data: formData,
+                success: function (data) {
+                    if (data.code == 200) {
+                        alert(data.msg);
+                        $('#modalCreatePost').modal('hide');
+                        LoadInfoUser();
+                    } else {
+                        alert(data.msg);
+                    }
+                }
+            });
+        });
+
+        //khi ấn btn đóng của modal => ẩn modal đi
+        $('#btnClosePost').click(function () { $('#modalCreatePost').modal('hide'); })
+
+        // phần kéo thả, thêm ảnh vào bài viết
+        const dropArea = document.getElementById('drop-area');
+        const inputFile = document.getElementById('input-file');
+        const imageView = document.getElementById('img-view');
+
+        inputFile.addEventListener("change", uploadImage);
+
+        function uploadImage(){
+            let imgLink = URL.createObjectURL(inputFile.files[0]);
+            imageView.style.backgroundImage = `url(${imgLink})`;
+            imageView.textContent = "";
+            imageView.style.border = 0;
+        }
+
+        dropArea.addEventListener("dragover", function(e)
+        {
+            e.preventDefault();
+        })
+
+        dropArea.addEventListener("drop", function (e) {
+            e.preventDefault();
+            inputFile.files = e.dataTransfer.files;
+            uploadImage();
+        })
+
+    </script>
 }

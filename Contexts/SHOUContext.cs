@@ -107,10 +107,10 @@ public partial class SHOUContext : DbContext
             entity.Property(e => e.Id)
                 .HasMaxLength(36)
                 .IsUnicode(false);
-            entity.Property(e => e.CreateAt)
+            entity.Property(e => e.CreateTime)
                 .HasColumnType("datetime")
-                .HasColumnName("Create_at");
-            entity.Property(e => e.IdImage)
+                .HasColumnName("CreateTime");
+            entity.Property(e => e.Image)
                 .HasMaxLength(36)
                 .IsUnicode(false);
             entity.Property(e => e.IdUser)

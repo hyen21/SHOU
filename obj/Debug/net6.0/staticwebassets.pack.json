@@ -9,8 +9,24 @@
       "PackagePath": "staticwebassets\\Img\\background.jpg"
     },
     {
+      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\comment-icon.png",
+      "PackagePath": "staticwebassets\\Img\\comment-icon.png"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\icon_camera.jpg",
       "PackagePath": "staticwebassets\\Img\\icon_camera.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\image(10).png",
+      "PackagePath": "staticwebassets\\Img\\image(10).png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\like-icon.png",
+      "PackagePath": "staticwebassets\\Img\\like-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\liked-icon.png",
+      "PackagePath": "staticwebassets\\Img\\liked-icon.png"
     },
     {
       "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\noprofil.jpg",
@@ -19,6 +35,10 @@
     {
       "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\tet.jpg",
       "PackagePath": "staticwebassets\\Img\\tet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\upload.png",
+      "PackagePath": "staticwebassets\\Img\\upload.png"
     },
     {
       "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\avatars\\2a315e24-7765-43ec-9b63-02ae3398632d.png",
@@ -63,6 +83,14 @@
     {
       "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\imgPost\\a61bb846-cb48-4d7e-a0c2-6d79f3e05556.png",
+      "PackagePath": "staticwebassets\\imgPost\\a61bb846-cb48-4d7e-a0c2-6d79f3e05556.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\imgPost\\df123c5e-bab5-408f-89a1-dd14450a01cd.jpg",
+      "PackagePath": "staticwebassets\\imgPost\\df123c5e-bab5-408f-89a1-dd14450a01cd.jpg"
     },
     {
       "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\js\\site.js",

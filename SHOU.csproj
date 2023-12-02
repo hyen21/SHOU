@@ -24,8 +24,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Posts\" />
     <Folder Include="wwwroot\avatars\" />
     <Folder Include="wwwroot\backgrounds\" />
+    <Folder Include="wwwroot\imgPost\" />
   </ItemGroup>
 
 </Project>
