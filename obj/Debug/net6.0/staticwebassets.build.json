@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hfsW+A8IQRaYx3Rxy/FTlu9/8HZXGj4jTUOVIyk3tN4=",
+  "Hash": "TtmFgnotGmN/3yL4/fNC/Zl/cakHAA4UP+iAXhE6jeA=",
   "Source": "SHOU",
   "BasePath": "_content/SHOU",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\comment-icon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\count-like-icon.png",
+      "SourceId": "SHOU",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\",
+      "BasePath": "_content/SHOU",
+      "RelativePath": "Img/count-like-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\count-like-icon.png"
     },
     {
       "Identity": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\icon_camera.jpg",

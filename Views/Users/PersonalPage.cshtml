@@ -69,12 +69,28 @@
             <img src="/Img/noprofil.jpg" width="50" height="50" style=" border-radius: 50%;" id="avatarProfile1" />
             <input type="text" class="form-control" id="createPost" placeholder="Bạn muốn đăng bài?" />
         </div>
+        <div >
+
+        </div>
         <div class="list-post" id="123" name="asd">
-            <div style="display:flex">
-                <img src="/Img/noprofil.jpg" width="50" height="50" style=" border-radius: 50%;"/>
-                <div style="margin-left:8px">
-                    <span> Tạ Việt Anh</span></br>
-                    <span> 2 giờ</span>
+            <div style="display:flex; justify-content:space-between;" >
+                <div style="display:flex;">
+                    <img src="/Img/noprofil.jpg" width="50" height="50" style=" border-radius: 50%;" />
+                    <div style="margin-left:8px">
+                        <span> Tạ Việt Anh</span></br>
+                        <span> 2 giờ</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-cogs"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-edit" aria-labelledby="dropdownMenuButton">
+                            <a class="nav-link text-dark" style=" cursor: pointer;">Chỉnh sửa</a>
+                            <a class="nav-link text-dark" style=" cursor: pointer;">Xoá</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div>
