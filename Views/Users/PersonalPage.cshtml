@@ -1,5 +1,8 @@
-﻿@{
+﻿@model IEnumerable<SHOU.Models.EditModel.PostViewModel>
+
+@{
     var name = @User.FindFirst("Name")?.Value;
+    var idUserSignIn = @User.FindFirst("Id")?.Value;
 }
 
 <div class="avatar">
@@ -69,62 +72,72 @@
             <img src="/Img/noprofil.jpg" width="50" height="50" style=" border-radius: 50%;" id="avatarProfile1" />
             <input type="text" class="form-control" id="createPost" placeholder="Bạn muốn đăng bài?" />
         </div>
-        <div >
-
-        </div>
-        <div class="list-post" id="123" name="asd">
-            <div style="display:flex; justify-content:space-between;" >
-                <div style="display:flex;">
-                    <img src="/Img/noprofil.jpg" width="50" height="50" style=" border-radius: 50%;" />
-                    <div style="margin-left:8px">
-                        <span> Tạ Việt Anh</span></br>
-                        <span> 2 giờ</span>
+        @foreach (var item in Model)
+        {
+            <div class="list-post" id="@item.Id" name="post">
+                <div style="display:flex; justify-content:space-between;">
+                    <div style="display:flex;">
+                        <img src="@item.Avatar" width="50" height="50" style=" border-radius: 50%;" />
+                        <div style="margin-left:8px">
+                            <span> @item.Name</span> <br />
+                            <span> @item.CreateTime</span>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-cogs"></i>
-                        </button>
-                        <div class="dropdown-menu dropdown-edit" aria-labelledby="dropdownMenuButton">
-                            <a class="nav-link text-dark" style=" cursor: pointer;">Chỉnh sửa</a>
-                            <a class="nav-link text-dark" style=" cursor: pointer;">Xoá</a>
+                    <div>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-cogs"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-edit" aria-labelledby="dropdownMenuButton">
+                                <a class="nav-link text-dark" style=" cursor: pointer;" name="edit">Chỉnh sửa</a>
+                                <a class="nav-link text-dark" style=" cursor: pointer;" name="delete">Xoá</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                Trước đó, ngày 30/11, trên mạng xã hội TikTok xuất hiện clip ghi lại hình ảnh một người điều khiển xe máy biển số 51F2-17XX có hành vi chở theo sau một người khác đứng trên yên xe để quay phim cho một nam thanh niên không đội mũ bảo hiểm, ngồi quay mặt về phía sau trên máy biển số 60G1-347XX lưu thông trên đường Trần Hưng Đạo, hướng từ đường Calmette về đường Lê Lợi (quận 1, TP.HCM).
-            </div>
-            <div class="img-list-post">
-                <img src="/Img/image(10).png" width="500" height="500"/>
-            </div>
-            <div class="static-like-comment">
-                <div style="margin-left:20px">
-                    <img src="/Img/count-like-icon.png" width="20" height="20" />
-                    <span>10</span>
+                <div>
+                    @item.Content
                 </div>
-                <div style="margin-right:20px">
-                    <span>100</span> <span>bình luận</span> 
+                <div class="img-list-post">
+                    <img src="@item.Image" width="500" height="500" />
+                </div>
+                <div class="static-like-comment">
+                    <div style="margin-left:20px">
+                        <img src="/Img/count-like-icon.png" width="20" height="20" />
+                        <span name="countLike">@item.CountLike</span>
+                    </div>
+                    <div style="margin-right:20px">
+                        <span>@item.CountCmt</span> <span>bình luận</span>
+                    </div>
+                </div>
+                <div class="like-comment">
+                    <div class="col-md-6 like-comment">
+                        @if (item.Liked)
+                        {
+                            <button class="btn-like liked" name="like">
+                                <img class="like-icon liked" name="icon-like" src="/Img/Liked-icon.png" width="40" height="40" />
+                                <span> Thích</span>
+                            </button>
+                        }
+                        else
+                        {
+                            <button class="btn-like" name="like">
+                                <img class="like-icon" name="icon-like" src="/Img/Like-icon.png" width="40" height="40" />
+                                <span> Thích</span>
+                            </button>
+                        }
+                    </div>
+                    <div class="col-md-6 like-comment">
+                        <button class="btn-like-cmt btn-like">
+                            <img src="/Img/comment-icon.png" width="40" height="40" />
+                            <span> Bình luận</span>
+                        </button>
+
+                    </div>
                 </div>
             </div>
-            <div class="like-comment">
-                <div class="col-md-6 like-comment">
-                    <button class="btn-like" name="like">
-                        <img class="like-icon" name="icon-like" src="/Img/Liked-icon.png" width="40" height="40" />
-                        <span> Thích</span>
-                    </button>
-                    
-                </div>
-                <div class="col-md-6 like-comment">
-                    <button class="btn-like-cmt btn-like">
-                        <img src="/Img/comment-icon.png" width="40" height="40" />
-                        <span> Bình luận</span>
-                    </button>
-                    
-                </div>
-            </div>
-        </div>
+        }
+
     </div>
 </div>
 
@@ -179,6 +192,7 @@
             <div class="panel panel-primary">
                 <div class="panel-heading title-model" id="modalTitle">Tạo bài viết</div>
                 <div class="panel-body">
+                    <input hidden id="idposts" value="" />
                     <div>
                         <img src="/Img/noprofil.jpg" width="50" height="50" style=" border-radius: 50%;" id="avatarProfile2" />
                         <span>@name</span>
@@ -209,15 +223,105 @@
 </div>
 
 
-@section scripts{
+@section scripts {
     <script>
-
+        // khi nhấn vào nút like
         $(document).on('click', "button[name='like']", function () {
-            let idCmt0 = $(this).closest('div[name="asd"]').attr('id');
+            let idPostLike = $(this).closest('div[name="post"]').attr('id');
+            let idUserSignIn = '@idUserSignIn';
             $(this).toggleClass('liked');
             $(this).find('.like-icon').toggleClass('liked');
-            console.log(idCmt0);
+            $.ajax({
+                url: '/Likes/LikePost',
+                type: 'post',
+                data: {
+                    idUser: idUserSignIn,
+                    idPost: idPostLike,
+                },
+                success: function (data) {
+                    if (data.code == 200) {
+                        $.ajax({
+                            url: '/Likes/CountLike',
+                            type: 'post',
+                            data: {
+                                idPost: idPostLike,
+                            },
+                            success: function (data) {
+                                if (data.code == 200) {
+                                    $(`#${idPostLike} span[name="countLike"]`).text(data.countLike);
+                                } else {
+                                    alert(data.msg);
+                                }
+                            }
+                        });
+                    } else {
+                        alert(data.msg);
+
+                    }
+                }
+            });
         });
+
+        // khi nhấn vào nút xóa
+        $(document).on('click', "a[name='delete']", function () {
+            let idPost = $(this).closest('div[name="post"]').attr('id');
+            $.ajax({
+                url: '/Posts/Delete',
+                type: 'post',
+                data: {
+                    id: idPost,
+                },
+                success: function (data) {
+                    if (data.code == 200) {
+                        alert(data.msg);
+                        location.reload();
+                    } else {
+                        alert(data.msg);
+                    }
+                }
+            });
+        });
+
+        // khi nhấn vào nút chỉnh sửa
+        $(document).on('click', "a[name='edit']", function () {
+            let idPost = $(this).closest('div[name="post"]').attr('id');
+            console.log(idPost);
+            $.ajax({
+                url: '/Users/GetProfile',
+                type: 'get',
+                success: function (data) {
+                    console.log(data);
+                    $('#avatarProfile2').attr('src', data.user.avatar);
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+            $.ajax({
+                url: '/Posts/Detail',
+                type: 'get',
+                data: {
+                    id: idPost,
+                },
+                success: function (data) {
+                    if (data.code == 200) {
+                        $('#textPost').text(data.detail.content);
+                        imageView.style.backgroundImage = `url(${data.detail.image})`;
+                        imageView.textContent = "";
+                        imageView.style.border = 0;
+                        $('#idposts').val(data.detail.id);
+                    } else {
+                        alert(data.msg);
+                    }
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+            
+            $('#modalCreatePost').modal('show');
+        });
+
         // vào màn chạy luôn các function này
         $(document).ready(function () {
             LoadInfoUser();
@@ -248,6 +352,7 @@
                         success: function (data) {
                             if (data.code == 200) {
                                 alert(data.msg);
+                                location.reload();
                             }
                             else {
                                 alert(data.msg);
@@ -392,7 +497,7 @@
                     if (data.code == 200) {
                         alert(data.msg);
                         $('#modalProfile').modal('hide');
-                        LoadInfoUser();
+                        location.reload();
                     } else {
                         alert(data.msg);
                     }
@@ -420,32 +525,63 @@
         $('#btnCreatePost').click(function () {
             // lấy dữ liệu của các input ra
             let textPost = $('#textPost').val();
-            if ((textPost == null || textPost.length == 0) && (inputFile.files[0] == null)) {
-                alert('Vui lòng điên thông tin!');
-                return;
+            let idPost = $('#idposts').val();
+            console.log(idPost);
+            if (idPost.length == 0 || idPost == null) {
+                if ((textPost == null || textPost.length == 0) || (inputFile.files[0] == null)) {
+                    alert('Vui lòng điên thông tin!');
+                    return;
+                }
             }
 
-            var formData = new FormData();
-            formData.append('textPost', textPost);
-            formData.append('img', inputFile.files[0]);                                                                                                                                  
-
-            // dùng ajax để update
-            $.ajax({
-                url: '/Posts/Create',
-                type: 'post',
-                processData: false,  // Không xử lý dữ liệu
-                contentType: false,  // Không đặt kiểu dữ liệu
-                data: formData,
-                success: function (data) {
-                    if (data.code == 200) {
-                        alert(data.msg);
-                        $('#modalCreatePost').modal('hide');
-                        LoadInfoUser();
-                    } else {
-                        alert(data.msg);
+            if (idPost.length == 0 || idPost == null) {
+                var formData = new FormData();
+                formData.append('textPost', textPost);
+                formData.append('img', inputFile.files[0]);
+                // dùng ajax để thêm bài viết
+                $.ajax({
+                    url: '/Posts/Create',
+                    type: 'post',
+                    processData: false,  // Không xử lý dữ liệu
+                    contentType: false,  // Không đặt kiểu dữ liệu
+                    data: formData,
+                    success: function (data) {
+                        if (data.code == 200) {
+                            alert(data.msg);
+                            $('#modalCreatePost').modal('hide');
+                            location.reload();
+                        } else {
+                            alert(data.msg);
+                        }
                     }
-                }
-            });
+                });
+            }
+            else {
+                var formData = new FormData();
+                formData.append('textPost', textPost);
+                formData.append('img', inputFile.files[0]);
+                formData.append('idPost', idPost);
+
+                // dùng ajax để cập nhật bài viết
+                $.ajax({
+                    url: '/Posts/Update',
+                    type: 'post',
+                    processData: false,  // Không xử lý dữ liệu
+                    contentType: false,  // Không đặt kiểu dữ liệu
+                    data: formData,
+                    success: function (data) {
+                        if (data.code == 200) {
+                            alert(data.msg);
+                            $('#modalCreatePost').modal('hide');
+                            location.reload();
+                        } else {
+                            alert(data.msg);
+                        }
+                    }
+                });
+            }
+
+
         });
 
         //khi ấn btn đóng của modal => ẩn modal đi
@@ -458,15 +594,14 @@
 
         inputFile.addEventListener("change", uploadImage);
 
-        function uploadImage(){
+        function uploadImage() {
             let imgLink = URL.createObjectURL(inputFile.files[0]);
             imageView.style.backgroundImage = `url(${imgLink})`;
             imageView.textContent = "";
             imageView.style.border = 0;
         }
 
-        dropArea.addEventListener("dragover", function(e)
-        {
+        dropArea.addEventListener("dragover", function (e) {
             e.preventDefault();
         })
 

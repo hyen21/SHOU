@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SHOU.Contexts;
+using SHOU.Extentions;
 using SHOU.Models;
 
 namespace SHOU.Controllers
@@ -158,6 +159,46 @@ namespace SHOU.Controllers
         private bool LikeExists(string id)
         {
           return (_context.Likes?.Any(e => e.Id == id)).GetValueOrDefault();
+        }
+
+        public async Task<IActionResult> LikePost(string idUser, string idPost)
+        {
+            try
+            {
+                var like = await _context.Likes.FirstOrDefaultAsync(c => c.IdPost == idPost && c.IdUser == idUser);
+                if (like != null)
+                {
+                    _context.Likes.Remove(like);
+                    await _context.SaveChangesAsync();
+                }
+                else
+                {
+                    Like like1 = new Like();
+                    like1.IdUser = idUser;
+                    like1.IdPost = idPost;
+                    like1.Id = ObjectExtentions.GenerateGuid();
+                    _context.Likes.Add(like1);
+                    await _context.SaveChangesAsync();
+                }
+                return Json(new { code = 200});
+            }
+            catch (Exception ex)
+            {
+                return Json(new { code = 500 });
+            }
+        }
+
+        public async Task<IActionResult> CountLike(string idPost)
+        {
+            try
+            {
+                var like = await _context.Likes.CountAsync(c => c.IdPost == idPost);
+                return Json(new { code = 200, countLike = like });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { code = 500, countLike = 0 });
+            }
         }
     }
 }

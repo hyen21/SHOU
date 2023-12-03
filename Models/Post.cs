@@ -7,7 +7,7 @@ public partial class Post
 {
     public string Id { get; set; } = null!;
 
-    public string IdUser { get; set; } = null!;
+    public string? IdUser { get; set; } = null!;
 
     public string? Image { get; set; }
 

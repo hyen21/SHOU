@@ -75,7 +75,7 @@ namespace SHOU.Controllers
                         new Claim("Id", data.Id),
                         new Claim("UserName", data.UserName),
                         new Claim("Name", data.Name),
-                        new Claim("Avatar", data.Avatar),
+                        new Claim("Avatar", data.Avatar ?? "/Img/noprofil.jpg"),
                     };
 
                     ClaimsIdentity identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -176,9 +176,30 @@ namespace SHOU.Controllers
         }
 
         // GET: Users/PersonalPage
-        public IActionResult PersonalPage()
+        public async Task<IActionResult> PersonalPage()
         {
-            return View();
+            List<PostViewModel> postViewModels = new List<PostViewModel>();
+            var id = @User.FindFirst("Id")?.Value;
+            var listPost = await _context.Posts.Where(c => c.IdUser == id).OrderByDescending(c => c.CreateTime).ToListAsync();
+            foreach (var item in listPost)
+            {
+                PostViewModel postViewModel = new PostViewModel();
+                postViewModel.Id = item.Id;
+                postViewModel.IdUser = item.IdUser;
+                postViewModel.Image = item.Image;
+                postViewModel.Content = item.Content;
+                postViewModel.Video = item.Video;
+                postViewModel.Video = item.Video;
+                postViewModel.CreateTime = item.CreateTime;
+
+                var userPost = await _context.Users.FirstOrDefaultAsync(c => c.Id == item.IdUser);
+                postViewModel.CountLike = await _context.Likes.Where(c => c.IdPost == item.Id).CountAsync();
+                postViewModel.Avatar = userPost?.Avatar ?? "/Img/noprofil.jpg";
+                postViewModel.Name = userPost?.Name ?? "Nguyễn Văn A";
+                postViewModel.Liked = await _context.Likes.AnyAsync(c => c.IdPost == item.Id && c.IdUser == id);
+                postViewModels.Add(postViewModel);
+            }
+            return View(postViewModels);
         }
 
         public async Task<JsonResult> GetProfile()
