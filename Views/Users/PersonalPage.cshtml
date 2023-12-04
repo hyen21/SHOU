@@ -1,6 +1,7 @@
 ﻿@model IEnumerable<SHOU.Models.EditModel.PostViewModel>
 
 @{
+    ViewData["Title"] = "Trang cá nhân";
     var name = @User.FindFirst("Name")?.Value;
     var idUserSignIn = @User.FindFirst("Id")?.Value;
 }
@@ -225,6 +226,12 @@
 
 @section scripts {
     <script>
+
+        // vào màn chạy luôn các function này
+        $(document).ready(function () {
+            LoadInfoUser();
+        });
+
         // khi nhấn vào nút like
         $(document).on('click', "button[name='like']", function () {
             let idPostLike = $(this).closest('div[name="post"]').attr('id');
@@ -322,10 +329,6 @@
             $('#modalCreatePost').modal('show');
         });
 
-        // vào màn chạy luôn các function này
-        $(document).ready(function () {
-            LoadInfoUser();
-        });
 
         // khi chọn ảnh thay avatar
         function changeAvatarProfile(input) {
@@ -413,9 +416,9 @@
                 type: 'get',
                 success: function (data) {
                     console.log(data);
-                    $('#backgroundProfile').attr('src', data.user.background);
-                    $('#avatarProfile').attr('src', data.user.avatar);
-                    $('#avatarProfile1').attr('src', data.user.avatar);
+                    $('#backgroundProfile').attr('src', data.user.background ?? "/Img/noprofil.jpg");
+                    $('#avatarProfile').attr('src', data.user.avatar ?? "/Img/noprofil.jpg");
+                    $('#avatarProfile1').attr('src', data.user.avatar ?? "/Img/noprofil.jpg");
                     $('#name').text(data.user.name);
                     $('#birthday').text(moment(data.user.birthday).format('DD/MM/YYYY'));
                     if (data.user.gender) {

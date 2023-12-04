@@ -385,5 +385,7 @@ namespace SHOU.Controllers
                 return Json(new { code = 500, msg = "Đổi mật khẩu thất bại!" });
             }
         }
+
+
     }
 }

@@ -6,26 +6,49 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using XAct.Users;
-
+using SHOU.Models.EditModel;
+using SHOU.Contexts;
+using Microsoft.EntityFrameworkCore;
 
 namespace SHOU.Controllers
 {
     [Authorize]
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly SHOUContext _context;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(SHOUContext context, IWebHostEnvironment webHostEnvironment)
         {
-            _logger = logger;
+            _webHostEnvironment = webHostEnvironment;
+            _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var user = HttpContext.User;
-            var name = user.FindFirst("Name")?.Value;
-            ViewData["Name"] = name;
-            return View();
+
+            List<PostViewModel> postViewModels = new List<PostViewModel>();
+            var id = @User.FindFirst("Id")?.Value;
+            var listPost = await _context.Posts.OrderByDescending(c => c.CreateTime).ToListAsync();
+            foreach (var item in listPost)
+            {
+                PostViewModel postViewModel = new PostViewModel();
+                postViewModel.Id = item.Id;
+                postViewModel.IdUser = item.IdUser;
+                postViewModel.Image = item.Image;
+                postViewModel.Content = item.Content;
+                postViewModel.Video = item.Video;
+                postViewModel.Video = item.Video;
+                postViewModel.CreateTime = item.CreateTime;
+
+                var userPost = await _context.Users.FirstOrDefaultAsync(c => c.Id == item.IdUser);
+                postViewModel.CountLike = await _context.Likes.Where(c => c.IdPost == item.Id).CountAsync();
+                postViewModel.Avatar = userPost?.Avatar ?? "/Img/noprofil.jpg";
+                postViewModel.Name = userPost?.Name ?? "Nguyễn Văn A";
+                postViewModel.Liked = await _context.Likes.AnyAsync(c => c.IdPost == item.Id && c.IdUser == id);
+                postViewModels.Add(postViewModel);
+            }
+            return View(postViewModels);
         }
 
         public IActionResult Privacy()

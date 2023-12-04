@@ -1,9 +1,283 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<SHOU.Models.EditModel.PostViewModel>
+@{
+    ViewData["Title"] = "Trang chủ";
+    var name = @User.FindFirst("Name")?.Value;
+    var idUserSignIn = @User.FindFirst("Id")?.Value;
+    var avatar = @User.FindFirst("Avatar")?.Value;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="create-post">
+    <img src="@avatar" width="50" height="50" style=" border-radius: 50%;" id="avatarProfile1" />
+    <input type="text" class="form-control" id="createPost" placeholder="Bạn muốn đăng bài?" />
 </div>
+@foreach (var item in Model)
+{
+    <div class="list-post" id="@item.Id" name="post">
+        <div style="display:flex;">
+            <img src="@item.Avatar" width="50" height="50" style=" border-radius: 50%;" />
+            <div style="margin-left:8px">
+                <span> @item.Name</span> <br />
+                <span> @item.CreateTime</span>
+            </div>
+        </div>
+        <div>
+            @item.Content
+        </div>
+        <div class="img-list-post">
+            <img src="@item.Image" width="500" height="500" />
+        </div>
+        <div class="static-like-comment">
+            <div style="margin-left:20px">
+                <img src="/Img/count-like-icon.png" width="20" height="20" />
+                <span name="countLike">@item.CountLike</span>
+            </div>
+            <div style="margin-right:20px">
+                <span>@item.CountCmt</span> <span>bình luận</span>
+            </div>
+        </div>
+        <div class="like-comment">
+            <div class="col-md-6 like-comment">
+                @if (item.Liked)
+                {
+                    <button class="btn-like liked" name="like">
+                        <img class="like-icon liked" name="icon-like" src="/Img/Liked-icon.png" width="40" height="40" />
+                        <span> Thích</span>
+                    </button>
+                }
+                else
+                {
+                    <button class="btn-like" name="like">
+                        <img class="like-icon" name="icon-like" src="/Img/Like-icon.png" width="40" height="40" />
+                        <span> Thích</span>
+                    </button>
+                }
+            </div>
+            <div class="col-md-6 like-comment">
+                <button class="btn-like-cmt btn-like">
+                    <img src="/Img/comment-icon.png" width="40" height="40" />
+                    <span> Bình luận</span>
+                </button>
+
+            </div>
+        </div>
+    </div>
+}
+
+<div class="modal" tabindex="-1" role="dialog" id="modalCreatePost">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content edit-profile-modal">
+            <div class="panel panel-primary">
+                <div class="panel-heading title-model" id="modalTitle">Tạo bài viết</div>
+                <div class="panel-body">
+                    <input hidden id="idposts" value="" />
+                    <div>
+                        <img src="/Img/noprofil.jpg" width="50" height="50" style=" border-radius: 50%;" id="avatarProfile2" />
+                        <span>@name</span>
+                    </div>
+                    <div class="form-group" style="margin-top: 20px;">
+                        <textarea class="form-control" id="textPost" style="border-radius: 20px;" placeholder="Những điều bạn muốn nói."></textarea>
+                    </div>
+                    <div class="hero">
+                        <label for="input-file" id="drop-area">
+                            <input type="file" accept="image/*" id="input-file" hidden>
+                            <div id="img-view">
+                                <img src="/Img/upload.png">
+                                <P>Kéo thả ảnh hoặc click </br> để thêm ảnh!</P>
+                                <span>Tải ảnh lên từ máy tính của bạn! </span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnCreatePost">Tạo</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btnClosePost">Đóng</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section scripts {
+    <script>
+
+        //// vào màn chạy luôn các function này
+        //$(document).ready(function () {
+        //    LoadInfoUser();
+        //});
+
+        //// Load thông tin của user đang đăng nhập
+        //function LoadInfoUser() {
+        //    $.ajax({
+        //        url: '/Users/GetProfile',
+        //        type: 'get',
+        //        success: function (data) {
+        //            console.log(data);
+        //            $('#backgroundProfile').attr('src', data.user.background);
+        //            $('#avatarProfile').attr('src', data.user.avatar);
+        //            $('#avatarProfile1').attr('src', data.user.avatar);
+        //            $('#name').text(data.user.name);
+        //            $('#birthday').text(moment(data.user.birthday).format('DD/MM/YYYY'));
+        //            if (data.user.gender) {
+        //                $('#gender').text("Nam");
+        //            }
+        //            else {
+        //                $('#gender').text("Nữ");
+        //            }
+        //            $('#phone').text(data.user.phone);
+        //            $('#email').text(data.user.email);
+        //            $('#address').text(data.user.address);
+        //            $('#userName').text(data.user.userName);
+        //        },
+        //        error: function (error) {
+        //            console.log(error);
+        //        }
+        //    });
+        //}
+
+        // khi nhấn vào nút like
+        $(document).on('click', "button[name='like']", function () {
+            let idPostLike = $(this).closest('div[name="post"]').attr('id');
+            let idUserSignIn = '@idUserSignIn';
+            $(this).toggleClass('liked');
+            $(this).find('.like-icon').toggleClass('liked');
+            $.ajax({
+                url: '/Likes/LikePost',
+                type: 'post',
+                data: {
+                    idUser: idUserSignIn,
+                    idPost: idPostLike,
+                },
+                success: function (data) {
+                    if (data.code == 200) {
+                        $.ajax({
+                            url: '/Likes/CountLike',
+                            type: 'post',
+                            data: {
+                                idPost: idPostLike,
+                            },
+                            success: function (data) {
+                                if (data.code == 200) {
+                                    $(`#${idPostLike} span[name="countLike"]`).text(data.countLike);
+                                } else {
+                                    alert(data.msg);
+                                }
+                            }
+                        });
+                    } else {
+                        alert(data.msg);
+
+                    }
+                }
+            });
+        });
+
+        // khi ấn thêm bài viết => show modal lên
+        $('#createPost').click(function () {
+            $.ajax({
+                url: '/Users/GetProfile',
+                type: 'get',
+                success: function (data) {
+                    console.log(data);
+                    $('#avatarProfile2').attr('src', data.user.avatar);
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+            $('#modalCreatePost').modal('show');
+        })
+
+        // khi ấn tạo bài viết
+        $('#btnCreatePost').click(function () {
+            // lấy dữ liệu của các input ra
+            let textPost = $('#textPost').val();
+            let idPost = $('#idposts').val();
+            console.log(idPost);
+            if (idPost.length == 0 || idPost == null) {
+                if ((textPost == null || textPost.length == 0) || (inputFile.files[0] == null)) {
+                    alert('Vui lòng điên thông tin!');
+                    return;
+                }
+            }
+
+            if (idPost.length == 0 || idPost == null) {
+                var formData = new FormData();
+                formData.append('textPost', textPost);
+                formData.append('img', inputFile.files[0]);
+                // dùng ajax để thêm bài viết
+                $.ajax({
+                    url: '/Posts/Create',
+                    type: 'post',
+                    processData: false,  // Không xử lý dữ liệu
+                    contentType: false,  // Không đặt kiểu dữ liệu
+                    data: formData,
+                    success: function (data) {
+                        if (data.code == 200) {
+                            alert(data.msg);
+                            $('#modalCreatePost').modal('hide');
+                            location.reload();
+                        } else {
+                            alert(data.msg);
+                        }
+                    }
+                });
+            }
+            else {
+                var formData = new FormData();
+                formData.append('textPost', textPost);
+                formData.append('img', inputFile.files[0]);
+                formData.append('idPost', idPost);
+
+                // dùng ajax để cập nhật bài viết
+                $.ajax({
+                    url: '/Posts/Update',
+                    type: 'post',
+                    processData: false,  // Không xử lý dữ liệu
+                    contentType: false,  // Không đặt kiểu dữ liệu
+                    data: formData,
+                    success: function (data) {
+                        if (data.code == 200) {
+                            alert(data.msg);
+                            $('#modalCreatePost').modal('hide');
+                            location.reload();
+                        } else {
+                            alert(data.msg);
+                        }
+                    }
+                });
+            }
+
+
+        });
+
+        //khi ấn btn đóng của modal => ẩn modal đi
+        $('#btnClosePost').click(function () { $('#modalCreatePost').modal('hide'); })
+
+        // phần kéo thả, thêm ảnh vào bài viết
+        const dropArea = document.getElementById('drop-area');
+        const inputFile = document.getElementById('input-file');
+        const imageView = document.getElementById('img-view');
+
+        inputFile.addEventListener("change", uploadImage);
+
+        function uploadImage() {
+            let imgLink = URL.createObjectURL(inputFile.files[0]);
+            imageView.style.backgroundImage = `url(${imgLink})`;
+            imageView.textContent = "";
+            imageView.style.border = 0;
+        }
+
+        dropArea.addEventListener("dragover", function (e) {
+            e.preventDefault();
+        })
+
+        dropArea.addEventListener("drop", function (e) {
+            e.preventDefault();
+            inputFile.files = e.dataTransfer.files;
+            uploadImage();
+        })
+    </script>
+}
 

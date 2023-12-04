@@ -4,7 +4,7 @@
 
 @{
     var name = @User.FindFirst("Name")?.Value;
-    var avatar = @User.FindFirst("Avatar")?.Value;
+    var avatar = @User.FindFirst("Avatar")?.Value ?? "/Img/noprofil.jpg";
 }
 <head>
     <meta charset="utf-8" />
