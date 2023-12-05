@@ -26,7 +26,7 @@
         <div class="img-list-post">
             <img src="@item.Image" width="500" height="500" />
         </div>
-        <div class="static-like-comment">
+       @*  <div class="static-like-comment">
             <div style="margin-left:20px">
                 <img src="/Img/count-like-icon.png" width="20" height="20" />
                 <span name="countLike">@item.CountLike</span>
@@ -34,8 +34,8 @@
             <div style="margin-right:20px">
                 <span>@item.CountCmt</span> <span>bình luận</span>
             </div>
-        </div>
-        <div class="like-comment">
+        </div> *@
+        @* <div class="like-comment">
             <div class="col-md-6 like-comment">
                 @if (item.Liked)
                 {
@@ -59,7 +59,7 @@
                 </button>
 
             </div>
-        </div>
+        </div> *@
     </div>
 }
 @* <div class="modal" tabindex="-1" role="dialog" id="modalCreateComment">
