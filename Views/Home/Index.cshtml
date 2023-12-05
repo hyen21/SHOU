@@ -26,7 +26,7 @@
         <div class="img-list-post">
             <img src="@item.Image" width="500" height="500" />
         </div>
-       @*  <div class="static-like-comment">
+        <div class="static-like-comment">
             <div style="margin-left:20px">
                 <img src="/Img/count-like-icon.png" width="20" height="20" />
                 <span name="countLike">@item.CountLike</span>
@@ -34,8 +34,8 @@
             <div style="margin-right:20px">
                 <span>@item.CountCmt</span> <span>bình luận</span>
             </div>
-        </div> *@
-        @* <div class="like-comment">
+        </div>
+        <div class="like-comment">
             <div class="col-md-6 like-comment">
                 @if (item.Liked)
                 {
@@ -59,10 +59,10 @@
                 </button>
 
             </div>
-        </div> *@
+        </div>
     </div>
 }
-@* <div class="modal" tabindex="-1" role="dialog" id="modalCreateComment">
+<div class="modal" tabindex="-1" role="dialog" id="modalCreateComment">
     <div class="modal-dialog" role="document">
         <div class="modal-content edit-profile-modal">
             <div class="panel panel-primary">
@@ -74,7 +74,7 @@
                         <span>@name</span>
                     </div>
                     <div class="form-group" style="margin-top: 20px;">
-                        <textarea class="form-control" id="textPost" style="border-radius: 20px;" placeholder="Bình luận tại đây."></textarea>
+                        <textarea class="form-control" id="textComment" style="border-radius: 20px;" placeholder="Bình luận tại đây."></textarea>
                     </div>
                     
                 </div>
@@ -87,7 +87,7 @@
         </div>
 
     </div>
-</div> *@
+</div>
 
 <div class="modal" tabindex="-1" role="dialog" id="modalCreatePost">
     <div class="modal-dialog" role="document">
@@ -218,78 +218,56 @@
         //comment
         $('#createComment').click(function () {
             $.ajax({
-        //         url: '/Users/GetProfile',
-        //         type: 'get',
-        //         success: function (data) {
-        //             console.log(data);
-        //             $('#avatarProfile2').attr('src', data.user.avatar);
-        //         },
-        //         error: function (error) {
-        //             console.log(error);
-        //         }
-        //     });
-        //     $('#modalCreateComment').modal('show');
-        // })
+                url: '/Users/GetProfile',
+                type: 'get',
+                success: function (data) {
+                    console.log(data);
+                    $('#avatarProfile2').attr('src', data.user.avatar);
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+            $('#modalCreateComment').modal('show');
+        })
+
         //đăng comment
-        // $('#btnCreateComment').click(function () {
-        //     // lấy dữ liệu của các input ra
-        //     let textPost = $('#textPost').val();
-        //     let idPost = $('#idposts').val();
-        //     console.log(idPost);
-        //     if (idPost.length == 0 || idPost == null) {
-        //         if ((textPost == null || textPost.length == 0) || (inputFile.files[0] == null)) {
-        //             alert('Vui lòng điên thông tin!');
-        //             return;
-        //         }
-        //     }
+        $('#btnCreateComment').click(function () {
+            let idPostComment = '20e635d3385c4ac9a29968141e4859ff';
+            let idUserSignIn = '@idUserSignIn';
+            // lấy dữ liệu của các input ra
+            let textComment = $('#textComment').val();
+            console.log(textComment);
+            console.log(idUserSignIn);
+            console.log(idPostComment);
+            //ktra dữ liệu trước khi gửi
+            if ((textComment == null || textComment.length == 0)) {
+                alert('Vui lòng điên thông tin!');
+                return;
+            }
 
-        //     if (idPost.length == 0 || idPost == null) {
-        //         var formData = new FormData();
-        //         formData.append('textPost', textPost);
-        //         // dùng ajax để thêm comment
-        //         $.ajax({
-        //             url: '/Comments/CommentPost',
-        //             type: 'post',
-        //             processData: false,  // Không xử lý dữ liệu
-        //             contentType: false,  // Không đặt kiểu dữ liệu
-        //             data: formData,
-        //             success: function (data) {
-        //                 if (data.code == 200) {
-        //                     alert(data.msg);
-        //                     $('#modalCreateComment').modal('hide');
-        //                     location.reload();
-        //                 } else {
-        //                     alert(data.msg);
-        //                 }
-        //             }
-        //         });
-        //     }
-            // else {
-            //     var formData = new FormData();
-            //     formData.append('textPost', textPost);
-            //     formData.append('img', inputFile.files[0]);
-            //     formData.append('idPost', idPost);
+            var formData = new FormData();
+            formData.append('textComment', textComment);
+            formData.append('idUser', idUserSignIn);
+            formData.append('idPost', idPostComment);
 
-            //     // dùng ajax để cập nhật bài viết
-            //     $.ajax({
-            //         url: '/Posts/Update',
-            //         type: 'post',
-            //         processData: false,  // Không xử lý dữ liệu
-            //         contentType: false,  // Không đặt kiểu dữ liệu
-            //         data: formData,
-            //         success: function (data) {
-            //             if (data.code == 200) {
-            //                 alert(data.msg);
-            //                 $('#modalCreatePost').modal('hide');
-            //                 location.reload();
-            //             } else {
-            //                 alert(data.msg);
-            //             }
-            //         }
-            //     });
-            // }
-
-
+            //dùng ajax để thêm comment
+            $.ajax({
+                url: '/Comments/CommentPost',
+                type: 'post',
+                processData: false,   //Không xử lý dữ liệu
+                contentType: false,   //Không đặt kiểu dữ liệu
+                data: formData,
+                success: function (data) {
+                    if (data.code == 200) {
+                        alert(data.msg);
+                        $('#modalCreateComment').modal('hide');
+                        location.reload();
+                    } else {
+                        alert(data.msg);
+                    }
+                }
+            });
         });
 
         // khi ấn tạo bài viết

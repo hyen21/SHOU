@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qTC+OUQ5s3XK5lLjJ14Y/kmlJjBDTx6mXHkqugPsd0A=",
+  "Hash": "HAL9q0b09WqIaIGZ0m6ec5zgFyaJw3NG4xjru7KXoRg=",
   "Source": "SHOU",
   "BasePath": "_content/SHOU",
   "Mode": "Default",
@@ -595,6 +595,23 @@
       "OriginalItemSpec": "wwwroot\\imgPost\\358f6ca0-16ea-4dce-8749-f08a789ec399.png"
     },
     {
+      "Identity": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\5b9bf676-4247-4520-b15b-a7fed5f52646.PNG",
+      "SourceId": "SHOU",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\",
+      "BasePath": "_content/SHOU",
+      "RelativePath": "imgPost/5b9bf676-4247-4520-b15b-a7fed5f52646.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgPost\\5b9bf676-4247-4520-b15b-a7fed5f52646.PNG"
+    },
+    {
       "Identity": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\5ba55277-230d-4652-ab80-ab6edef5a7c0.jfif",
       "SourceId": "SHOU",
       "SourceType": "Discovered",
@@ -697,6 +714,40 @@
       "OriginalItemSpec": "wwwroot\\imgPost\\910861b1-79d6-4323-8dab-1e74b48b424b.jpg"
     },
     {
+      "Identity": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\92031f29-c3ec-4628-95ec-615ef0f501f5.PNG",
+      "SourceId": "SHOU",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\",
+      "BasePath": "_content/SHOU",
+      "RelativePath": "imgPost/92031f29-c3ec-4628-95ec-615ef0f501f5.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgPost\\92031f29-c3ec-4628-95ec-615ef0f501f5.PNG"
+    },
+    {
+      "Identity": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\96dc6b00-2bf7-413f-9520-abdf5060d0d5.png",
+      "SourceId": "SHOU",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\",
+      "BasePath": "_content/SHOU",
+      "RelativePath": "imgPost/96dc6b00-2bf7-413f-9520-abdf5060d0d5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgPost\\96dc6b00-2bf7-413f-9520-abdf5060d0d5.png"
+    },
+    {
       "Identity": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\984e8b8a-a553-4902-a008-cbe74b856be5.jfif",
       "SourceId": "SHOU",
       "SourceType": "Discovered",
@@ -746,6 +797,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imgPost\\bbfc7a80-ba32-44b1-8cf2-f24d41fc5ed8.png"
+    },
+    {
+      "Identity": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\bde44120-7498-4382-a97b-2b998e5fd3c6.PNG",
+      "SourceId": "SHOU",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\",
+      "BasePath": "_content/SHOU",
+      "RelativePath": "imgPost/bde44120-7498-4382-a97b-2b998e5fd3c6.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgPost\\bde44120-7498-4382-a97b-2b998e5fd3c6.PNG"
     },
     {
       "Identity": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\c89a5c26-705a-4202-9ef2-57703d61e31c.jpg",

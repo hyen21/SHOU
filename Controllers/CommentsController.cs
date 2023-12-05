@@ -67,22 +67,34 @@ namespace SHOU.Controllers
             }
             return View(comment);
         }
-        public async Task<IActionResult> CommentPost(string idUser, string idPost)
+        public async Task<IActionResult> CommentPost(string idUser, string idPost, string textPost)
         {
             try
             {
-                var comment = await _context.Likes.FirstOrDefaultAsync(c => c.IdPost == idPost && c.IdUser == idUser);
-                if (comment != null)
-                {
+                
                     Comment comment1 = new Comment();
                     comment1.IdUser = idUser;
                     comment1.IdPost = idPost;
                     comment1.Id = ObjectExtentions.GenerateGuid();
+                    comment1.Comment1 = textPost;
+                    comment1.AtTime = DateTime.Now;
                     _context.Comments.Add(comment1);
                     await _context.SaveChangesAsync();
-                }
+                
+                //var comment = await _context.Comments.FirstOrDefaultAsync(c => c.IdPost == idPost && c.IdUser == idUser);
+                //if (comment != null)
+                //{
+                //    Comment comment1 = new Comment();
+                //    comment1.IdUser = idUser;
+                //    comment1.IdPost = idPost;
+                //    comment1.Id = ObjectExtentions.GenerateGuid();
+                //    comment1.Comment1 = textPost;
+                //    comment1.AtTime = DateTime.Now;
+                //    _context.Comments.Add(comment1);
+                //    await _context.SaveChangesAsync();
+                //}
                
-                return Json(new { code = 200 });
+                return Json(new { code = 200, msg = "thành công!" });
             }
             catch (Exception ex)
             {
