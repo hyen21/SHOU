@@ -53,7 +53,7 @@
                 }
             </div>
             <div class="col-md-6 like-comment">
-                <button class="btn-like-cmt btn-like">
+                <button id="createComment" class="btn-like-cmt btn-like">
                     <img src="/Img/comment-icon.png" width="40" height="40" />
                     <span> Bình luận</span>
                 </button>
@@ -62,6 +62,32 @@
         </div>
     </div>
 }
+@* <div class="modal" tabindex="-1" role="dialog" id="modalCreateComment">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content edit-profile-modal">
+            <div class="panel panel-primary">
+                <div class="panel-heading title-model" id="modalTitle">Bình luận</div>
+                <div class="panel-body">
+                    <input hidden id="idposts" value="" />
+                    <div>
+                        <img src="/Img/noprofil.jpg" width="50" height="50" style=" border-radius: 50%;" id="avatarProfile2" />
+                        <span>@name</span>
+                    </div>
+                    <div class="form-group" style="margin-top: 20px;">
+                        <textarea class="form-control" id="textPost" style="border-radius: 20px;" placeholder="Bình luận tại đây."></textarea>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnCreateComment">Đăng</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btnCloseComment">Đóng</button>
+            </div>
+        </div>
+
+    </div>
+</div> *@
 
 <div class="modal" tabindex="-1" role="dialog" id="modalCreatePost">
     <div class="modal-dialog" role="document">
@@ -189,6 +215,83 @@
             $('#modalCreatePost').modal('show');
         })
 
+        //comment
+        $('#createComment').click(function () {
+            $.ajax({
+        //         url: '/Users/GetProfile',
+        //         type: 'get',
+        //         success: function (data) {
+        //             console.log(data);
+        //             $('#avatarProfile2').attr('src', data.user.avatar);
+        //         },
+        //         error: function (error) {
+        //             console.log(error);
+        //         }
+        //     });
+        //     $('#modalCreateComment').modal('show');
+        // })
+        //đăng comment
+        // $('#btnCreateComment').click(function () {
+        //     // lấy dữ liệu của các input ra
+        //     let textPost = $('#textPost').val();
+        //     let idPost = $('#idposts').val();
+        //     console.log(idPost);
+        //     if (idPost.length == 0 || idPost == null) {
+        //         if ((textPost == null || textPost.length == 0) || (inputFile.files[0] == null)) {
+        //             alert('Vui lòng điên thông tin!');
+        //             return;
+        //         }
+        //     }
+
+        //     if (idPost.length == 0 || idPost == null) {
+        //         var formData = new FormData();
+        //         formData.append('textPost', textPost);
+        //         // dùng ajax để thêm comment
+        //         $.ajax({
+        //             url: '/Comments/CommentPost',
+        //             type: 'post',
+        //             processData: false,  // Không xử lý dữ liệu
+        //             contentType: false,  // Không đặt kiểu dữ liệu
+        //             data: formData,
+        //             success: function (data) {
+        //                 if (data.code == 200) {
+        //                     alert(data.msg);
+        //                     $('#modalCreateComment').modal('hide');
+        //                     location.reload();
+        //                 } else {
+        //                     alert(data.msg);
+        //                 }
+        //             }
+        //         });
+        //     }
+            // else {
+            //     var formData = new FormData();
+            //     formData.append('textPost', textPost);
+            //     formData.append('img', inputFile.files[0]);
+            //     formData.append('idPost', idPost);
+
+            //     // dùng ajax để cập nhật bài viết
+            //     $.ajax({
+            //         url: '/Posts/Update',
+            //         type: 'post',
+            //         processData: false,  // Không xử lý dữ liệu
+            //         contentType: false,  // Không đặt kiểu dữ liệu
+            //         data: formData,
+            //         success: function (data) {
+            //             if (data.code == 200) {
+            //                 alert(data.msg);
+            //                 $('#modalCreatePost').modal('hide');
+            //                 location.reload();
+            //             } else {
+            //                 alert(data.msg);
+            //             }
+            //         }
+            //     });
+            // }
+
+
+        });
+
         // khi ấn tạo bài viết
         $('#btnCreatePost').click(function () {
             // lấy dữ liệu của các input ra
@@ -254,6 +357,8 @@
 
         //khi ấn btn đóng của modal => ẩn modal đi
         $('#btnClosePost').click(function () { $('#modalCreatePost').modal('hide'); })
+
+        $('#btnCloseCommemt').click(function () { $('#modalCreateComment').modal('hide'); })
 
         // phần kéo thả, thêm ảnh vào bài viết
         const dropArea = document.getElementById('drop-area');

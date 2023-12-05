@@ -12,18 +12,29 @@
 </head>
 <body>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4" style="width: 300px; margin-top: 50px; margin-left: auto; margin-right: auto;">
             <form asp-controller="Users" asp-action="Login" method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div>
+                    <img src="~/Img/shou.JPG" class="rounded" alt="logo">
+                    <h2>Đăng nhập</h2>
+                </div>
+                <br>
                 <div class="form-group">
                     <label asp-for="UserName" class="control-label"></label>
-                    <input asp-for="UserName" class="form-control" />
-                    <span asp-validation-for="UserName" class="text-danger"></span>
+                    <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
+                        <input asp-for="UserName" class="form-control" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                 <br>
                 </div>
                 <div class="form-group">
                     <label asp-for="Password" class="control-label"></label>
-                    <input asp-for="Password" class="form-control" />
-                    <span asp-validation-for="Password" class="text-danger"></span>
+                    <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                <br>
                 </div>
                 <div class="form-group">
                     <button type="submit">Đăng nhập</button>
@@ -36,7 +47,8 @@
             </form>
         </div>
     </div>
-    <div>
+    <br>
+    <div style="width: 300px; margin-left: auto; margin-right: auto;">
         <a asp-action="SignUp">Đăng ký</a>
     </div>
 </body>

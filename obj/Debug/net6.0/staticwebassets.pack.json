@@ -1,391 +1,415 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SHOU.bundle.scp.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SHOU.bundle.scp.css",
       "PackagePath": "staticwebassets\\SHOU.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\background.jpg",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\Img\\background.jpg",
       "PackagePath": "staticwebassets\\Img\\background.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\comment-icon.png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\Img\\comment-icon.png",
       "PackagePath": "staticwebassets\\Img\\comment-icon.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\count-like-icon.png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\Img\\count-like-icon.png",
       "PackagePath": "staticwebassets\\Img\\count-like-icon.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\icon_camera.jpg",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\Img\\icon_camera.jpg",
       "PackagePath": "staticwebassets\\Img\\icon_camera.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\image(10).png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\Img\\image(10).png",
       "PackagePath": "staticwebassets\\Img\\image(10).png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\like-icon.png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\Img\\like-icon.png",
       "PackagePath": "staticwebassets\\Img\\like-icon.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\liked-icon.png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\Img\\liked-icon.png",
       "PackagePath": "staticwebassets\\Img\\liked-icon.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\noprofil.jpg",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\Img\\noprofil.jpg",
       "PackagePath": "staticwebassets\\Img\\noprofil.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\tet.jpg",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\Img\\shou.JPG",
+      "PackagePath": "staticwebassets\\Img\\shou.JPG"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\Img\\tet.jpg",
       "PackagePath": "staticwebassets\\Img\\tet.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\Img\\upload.png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\Img\\upload.png",
       "PackagePath": "staticwebassets\\Img\\upload.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\avatars\\0b3a22e2-801f-4d57-8dd1-b33d15fa9acb.jfif",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\avatars\\0b3a22e2-801f-4d57-8dd1-b33d15fa9acb.jfif",
       "PackagePath": "staticwebassets\\avatars\\0b3a22e2-801f-4d57-8dd1-b33d15fa9acb.jfif"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\avatars\\27e178fb-d0a4-47af-9c94-8478fbe5b2ba.png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\avatars\\27e178fb-d0a4-47af-9c94-8478fbe5b2ba.png",
       "PackagePath": "staticwebassets\\avatars\\27e178fb-d0a4-47af-9c94-8478fbe5b2ba.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\avatars\\2a315e24-7765-43ec-9b63-02ae3398632d.png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\avatars\\2a315e24-7765-43ec-9b63-02ae3398632d.png",
       "PackagePath": "staticwebassets\\avatars\\2a315e24-7765-43ec-9b63-02ae3398632d.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\avatars\\3c0c1932-32a3-472e-9d28-e2cf3cf98631.jpg",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\avatars\\3c0c1932-32a3-472e-9d28-e2cf3cf98631.jpg",
       "PackagePath": "staticwebassets\\avatars\\3c0c1932-32a3-472e-9d28-e2cf3cf98631.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\avatars\\65239d03-d737-4bce-9182-31e879f3790a.png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\avatars\\65239d03-d737-4bce-9182-31e879f3790a.png",
       "PackagePath": "staticwebassets\\avatars\\65239d03-d737-4bce-9182-31e879f3790a.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\avatars\\7515904f-0f50-47bf-a243-01113b2a28eb.png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\avatars\\7515904f-0f50-47bf-a243-01113b2a28eb.png",
       "PackagePath": "staticwebassets\\avatars\\7515904f-0f50-47bf-a243-01113b2a28eb.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\avatars\\853aa684-75d5-41a8-8c71-cd42445f8379.jpg",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\avatars\\853aa684-75d5-41a8-8c71-cd42445f8379.jpg",
       "PackagePath": "staticwebassets\\avatars\\853aa684-75d5-41a8-8c71-cd42445f8379.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\avatars\\a9c98be6-4a85-4aab-85d5-12c8e971999a.jpg",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\avatars\\a9c98be6-4a85-4aab-85d5-12c8e971999a.jpg",
       "PackagePath": "staticwebassets\\avatars\\a9c98be6-4a85-4aab-85d5-12c8e971999a.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\avatars\\b24dbec4-7a96-4df1-8ebb-2fe3ab9d1ad3.jpg",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\avatars\\b24dbec4-7a96-4df1-8ebb-2fe3ab9d1ad3.jpg",
       "PackagePath": "staticwebassets\\avatars\\b24dbec4-7a96-4df1-8ebb-2fe3ab9d1ad3.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\avatars\\ee45ca65-51de-4d97-adfb-b94f4c763e2c.png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\avatars\\cf58e9bf-c4e7-436a-bd9d-cf86316210ee.jpg",
+      "PackagePath": "staticwebassets\\avatars\\cf58e9bf-c4e7-436a-bd9d-cf86316210ee.jpg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\avatars\\ee45ca65-51de-4d97-adfb-b94f4c763e2c.png",
       "PackagePath": "staticwebassets\\avatars\\ee45ca65-51de-4d97-adfb-b94f4c763e2c.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\backgrounds\\4d5e4e74-5ce6-483f-a94d-2e0d09618c10.jfif",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\backgrounds\\411bff91-e004-4a28-942d-0d06ba04a4f6.jpg",
+      "PackagePath": "staticwebassets\\backgrounds\\411bff91-e004-4a28-942d-0d06ba04a4f6.jpg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\backgrounds\\4d5e4e74-5ce6-483f-a94d-2e0d09618c10.jfif",
       "PackagePath": "staticwebassets\\backgrounds\\4d5e4e74-5ce6-483f-a94d-2e0d09618c10.jfif"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\backgrounds\\4d8c4a7f-1bd6-41a7-9e01-1c72e4e3a311.webp",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\backgrounds\\4d8c4a7f-1bd6-41a7-9e01-1c72e4e3a311.webp",
       "PackagePath": "staticwebassets\\backgrounds\\4d8c4a7f-1bd6-41a7-9e01-1c72e4e3a311.webp"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\backgrounds\\8eb1bbad-82dc-42e2-82ea-3d57aa86d1ce.jpg",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\backgrounds\\8eb1bbad-82dc-42e2-82ea-3d57aa86d1ce.jpg",
       "PackagePath": "staticwebassets\\backgrounds\\8eb1bbad-82dc-42e2-82ea-3d57aa86d1ce.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\backgrounds\\b69703e5-25ef-40d9-8227-d4a472d5a011.jpg",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\backgrounds\\b69703e5-25ef-40d9-8227-d4a472d5a011.jpg",
       "PackagePath": "staticwebassets\\backgrounds\\b69703e5-25ef-40d9-8227-d4a472d5a011.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\css\\site.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\favicon.ico",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\imgPost\\1140e663-0d3c-4f69-be39-1d2be9a9397c.jpg",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\1140e663-0d3c-4f69-be39-1d2be9a9397c.jpg",
       "PackagePath": "staticwebassets\\imgPost\\1140e663-0d3c-4f69-be39-1d2be9a9397c.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\imgPost\\3314eda6-77a0-4505-a7bd-ecd8c78abd28.jfif",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\3314eda6-77a0-4505-a7bd-ecd8c78abd28.jfif",
       "PackagePath": "staticwebassets\\imgPost\\3314eda6-77a0-4505-a7bd-ecd8c78abd28.jfif"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\imgPost\\358f6ca0-16ea-4dce-8749-f08a789ec399.png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\358f6ca0-16ea-4dce-8749-f08a789ec399.png",
       "PackagePath": "staticwebassets\\imgPost\\358f6ca0-16ea-4dce-8749-f08a789ec399.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\imgPost\\5ba55277-230d-4652-ab80-ab6edef5a7c0.jfif",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\5ba55277-230d-4652-ab80-ab6edef5a7c0.jfif",
       "PackagePath": "staticwebassets\\imgPost\\5ba55277-230d-4652-ab80-ab6edef5a7c0.jfif"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\imgPost\\5cce96b3-ee58-4be1-a065-42d97b5a33b5.png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\5cce96b3-ee58-4be1-a065-42d97b5a33b5.png",
       "PackagePath": "staticwebassets\\imgPost\\5cce96b3-ee58-4be1-a065-42d97b5a33b5.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\imgPost\\6fe37fb0-13ca-40dc-9020-7219996288dd.jpg",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\6fe37fb0-13ca-40dc-9020-7219996288dd.jpg",
       "PackagePath": "staticwebassets\\imgPost\\6fe37fb0-13ca-40dc-9020-7219996288dd.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\imgPost\\75084df8-e652-4f8f-afad-4cb710bd56d1.jpg",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\75084df8-e652-4f8f-afad-4cb710bd56d1.jpg",
       "PackagePath": "staticwebassets\\imgPost\\75084df8-e652-4f8f-afad-4cb710bd56d1.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\imgPost\\984e8b8a-a553-4902-a008-cbe74b856be5.jfif",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\7cef67e1-53f5-49cd-b21c-8ffa3c22ce17.jpg",
+      "PackagePath": "staticwebassets\\imgPost\\7cef67e1-53f5-49cd-b21c-8ffa3c22ce17.jpg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\910861b1-79d6-4323-8dab-1e74b48b424b.jpg",
+      "PackagePath": "staticwebassets\\imgPost\\910861b1-79d6-4323-8dab-1e74b48b424b.jpg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\984e8b8a-a553-4902-a008-cbe74b856be5.jfif",
       "PackagePath": "staticwebassets\\imgPost\\984e8b8a-a553-4902-a008-cbe74b856be5.jfif"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\imgPost\\a61bb846-cb48-4d7e-a0c2-6d79f3e05556.png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\a61bb846-cb48-4d7e-a0c2-6d79f3e05556.png",
       "PackagePath": "staticwebassets\\imgPost\\a61bb846-cb48-4d7e-a0c2-6d79f3e05556.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\imgPost\\bbfc7a80-ba32-44b1-8cf2-f24d41fc5ed8.png",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\bbfc7a80-ba32-44b1-8cf2-f24d41fc5ed8.png",
       "PackagePath": "staticwebassets\\imgPost\\bbfc7a80-ba32-44b1-8cf2-f24d41fc5ed8.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\imgPost\\daeeec4b-3e72-4665-abcb-dee628230662.jfif",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\c89a5c26-705a-4202-9ef2-57703d61e31c.jpg",
+      "PackagePath": "staticwebassets\\imgPost\\c89a5c26-705a-4202-9ef2-57703d61e31c.jpg"
+    },
+    {
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\daeeec4b-3e72-4665-abcb-dee628230662.jfif",
       "PackagePath": "staticwebassets\\imgPost\\daeeec4b-3e72-4665-abcb-dee628230662.jfif"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\imgPost\\df123c5e-bab5-408f-89a1-dd14450a01cd.jpg",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\imgPost\\df123c5e-bab5-408f-89a1-dd14450a01cd.jpg",
       "PackagePath": "staticwebassets\\imgPost\\df123c5e-bab5-408f-89a1-dd14450a01cd.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\js\\site.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Documents\\SHOU\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Bài Tập\\LTWNC\\SHOU\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

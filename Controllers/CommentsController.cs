@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SHOU.Contexts;
+using SHOU.Extentions;
 using SHOU.Models;
 
 namespace SHOU.Controllers
@@ -66,7 +67,28 @@ namespace SHOU.Controllers
             }
             return View(comment);
         }
-
+        public async Task<IActionResult> CommentPost(string idUser, string idPost)
+        {
+            try
+            {
+                var comment = await _context.Likes.FirstOrDefaultAsync(c => c.IdPost == idPost && c.IdUser == idUser);
+                if (comment != null)
+                {
+                    Comment comment1 = new Comment();
+                    comment1.IdUser = idUser;
+                    comment1.IdPost = idPost;
+                    comment1.Id = ObjectExtentions.GenerateGuid();
+                    _context.Comments.Add(comment1);
+                    await _context.SaveChangesAsync();
+                }
+               
+                return Json(new { code = 200 });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { code = 500 });
+            }
+        }
         // GET: Comments/Edit/5
         public async Task<IActionResult> Edit(string id)
         {

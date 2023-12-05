@@ -11,23 +11,40 @@
     <title>SignUp</title>
 </head>
 <body>
+    <div style="width: 600px; margin-top: 50px; margin-left: auto; margin-right: auto;">
     <form asp-controller="Users" asp-action="SignUp" method="post">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div>
+                <div>
+                    <img src="~/Img/shou.JPG" class="rounded" alt="logo">
+                </div>
+                <h2>Đăng ký</h2>
+        </div>
+        <br />
         <div class="form-group">
             <label asp-for="UserName" class="control-label"></label>
-            <input asp-for="UserName" class="form-control" />
-            <span asp-validation-for="UserName" class="text-danger"></span>
+                <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
+                    <input asp-for="UserName" class="form-control" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
         </div>
+        <br />
         <div class="form-group">
             <label asp-for="Password" class="control-label"></label>
-            <input asp-for="Password" class="form-control" />
-            <span asp-validation-for="Password" class="text-danger"></span>
+                <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>           
         </div>
+        <br />
         <div class="form-group">
             <label asp-for="RePassword" class="control-label"></label>
-            <input asp-for="RePassword" class="form-control" />
-            <span asp-validation-for="RePassword" class="text-danger"></span>
+                <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
+                    <input asp-for="RePassword" class="form-control" />
+                    <span asp-validation-for="RePassword" class="text-danger"></span>
+                </div>
         </div>
+        <br />
         <div class="form-group">
             <button type="submit">Đăng ký</button>
         </div>
@@ -44,7 +61,9 @@
             }
         }
     </form>
-    <div class="form-group">
+    </div>
+    <br />
+    <div style="width: 300px; margin-left: auto; margin-right: auto;">
         <a asp-action="Login">Đăng nhập</a>
     </div>
 </body>
